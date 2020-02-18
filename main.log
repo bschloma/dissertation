@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.20)  18 FEB 2020 07:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.20)  18 FEB 2020 08:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -715,21 +715,21 @@ e 3.
 \openout2 = `dedication.aux'.
 
 No file dedication.tex.
-(main.aux (chapter1.aux))
+(main.aux (chapter1.aux) (chapter2.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -808,17 +808,17 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 
-Package layouts Warning: Layout scale set to 0.5 on input line 13.
+Package layouts Warning: Layout scale set to 0.5 on input line 34.
 
 ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 13.
+loading the todonotes package. on input line 34.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 13.
+LaTeX Info: Redefining \selectfont on input line 34.
  [1
 
 
@@ -833,31 +833,31 @@ LaTeX Info: Redefining \selectfont on input line 13.
 
 {C:/Users/Brandon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 35.
  [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-4.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
+5.
 
 ("C:\Users\Brandon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
 <figures/creative_commons.png, id=36, 88.33pt x 31.11626pt>
 File: figures/creative_commons.png Graphic file (type png)
 <use figures/creative_commons.png>
-Package pdftex.def Info: figures/creative_commons.png  used on input line 14.
+Package pdftex.def Info: figures/creative_commons.png  used on input line 35.
 (pdftex.def)             Requested size: 88.32977pt x 31.11617pt.
 [3
 
  <./figures/creative_commons.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
@@ -868,13 +868,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 ] [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
  
  []
 
 (main.toc
 Overfull \hbox (8.48186pt too wide) detected at line 2
  \OT1/cmr/m/n/12 I.  
+ []
+
+
+Overfull \hbox (13.04709pt too wide) detected at line 3
+ \OT1/cmr/m/n/12 II.  
+ []
+
+
+Overfull \hbox (27.88094pt too wide) in paragraph at lines 3--3
+ [][] []\OT1/cmr/m/n/12 BACTERIAL CO-HE-SION PRE-DICTS SPA-TIAL DIS-TRI-BU-TION
+ IN THE 
  []
 
 )
@@ -885,7 +896,7 @@ Overfull \hbox (8.48186pt too wide) detected at line 2
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
  
  []
 
@@ -896,7 +907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
  [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
  
  []
 
@@ -921,11 +932,35 @@ Package pdftex.def Info: ./figures/ducks_logo.png  used on input line 8.
 
 
 
- <./figures/ducks_logo.png (PNG copy)>] (main.bbl) [2
+ <./figures/ducks_logo.png (PNG copy)>]
+\openout2 = `chapter2.aux'.
+
+ (chapter2.tex
+[Bacterial cohesion predicts spatial distribution in the larval zebrafish intes
+tine]
+[2
+
+
+
+] [3]
+Underfull \hbox (badness 1024) in paragraph at lines 27--28
+\OT1/cmr/m/n/12 ana-tom-ical and physiolo-gical sim-il-ar-it-ies to other ver-t
+eb-rates, its op-tical 
+ []
+
+[4] [5] [6] [7] [8] [9] [10]
+Underfull \hbox (badness 1102) in paragraph at lines 125--126
+[]\OT1/cmr/m/n/12 We posit that the mech-an-ism un-der-ly-ing the cohesion-dist
+ribution 
+ []
+
+[11] [12] [13] [14] [15
+
+] [16] [17]) [18] (main.bbl) [19
 
 
 ] (main.aux
-(chapter1.aux))
+(chapter1.aux) (chapter2.aux))
 
  *File List*
 uothesis.cls    
@@ -1001,26 +1036,31 @@ pdftexcmds.sty    2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
 figures/creative_commons.png
 chapter1.tex
 ./figures/ducks_logo.png
+chapter2.tex
     main.bbl
  ***********
 
  ) 
 Here is how much of TeX's memory you used:
- 15656 strings out of 492452
- 310528 string characters out of 3119129
- 380458 words of memory out of 3000000
- 19665 multiletter control sequences out of 15000+200000
+ 15810 strings out of 492452
+ 312739 string characters out of 3119129
+ 384214 words of memory out of 3000000
+ 19812 multiletter control sequences out of 15000+200000
  7328 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,8n,87p,692b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,8n,87p,2047b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Brandon/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (11 pages, 88293 bytes).
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Brandon/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Brandon/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (28 pages, 155640 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

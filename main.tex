@@ -1,6 +1,26 @@
 \documentclass[dissertation, copyright, numsections, gsmodern, final]{uothesis}
 \usepackage[english,UKenglish]{babel}
 
+%% Macros
+\def\reals{\mathbb{R}}
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\def\bml{\begin{mathletters}}
+	\def\eml{\end{mathletters}}
+\def\bse{\begin{subequations}}
+	\def\ese{\end{subequations}}
+\def\expec{\mathbb{E}}
+\def\exp{\text{exp}}
+\def\Var{\text{Var}}
+\def\e{\text{e}}
+\def\ba{\begin{align}}
+\def\ea{\end{align}}
+\def\Re{\text{Re}}
+\def\St{\text{St}}
+\def\O{\mathcal{O}}
+
 %%%PREFATORY PAGES
 \include{cover}
 \include{abstract}
@@ -8,12 +28,14 @@
 \include{acknowledgements}  %%acknowledgements page optional
 \include{dedication} %%dedication page optional
 
+
 %%%MAIN DOCUMENT
 \graphicspath{{./figures/}}
 \begin{document}
 \maketitle
 %%%CHAPTERS
 \include{chapter1}
+\include{chapter2}
 
 %%%APPENDICES
 %\appendix

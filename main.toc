@@ -1,3 +1,5 @@
 \babel@toc {UKenglish}{}
 \contentsline {chapter}{\numberline {I}\uppercase {Title of Chapter 1}}{1}% 
-\contentsline {chapter}{REFERENCES CITED}{2}% 
+\contentsline {chapter}{\numberline {II}\uppercase {Bacterial cohesion predicts spatial distribution in the larval zebrafish intestine}}{2}% 
+\contentsline {chapter}{REFERENCES CITED}{15}% 
+\contentsline {chapter}{REFERENCES CITED}{19}% 

@@ -1,0 +1,387 @@
+% chapter2.tex
+
+
+
+
+\chapter{Bacterial cohesion predicts spatial distribution in the larval zebrafish intestine}
+
+
+
+
+
+
+Are there general biophysical relationships governing the spatial organization of the gut microbiome? Despite growing realization that spatial structure is important for population stability, inter-bacterial competition, and host functions, it is unclear in any animal gut whether such structure is subject to predictive, unifying rules, or if it results from contextual, species-specific behaviors. To explore this, we used light sheet fluorescence microscopy to conduct a high-resolution comparative study of bacterial distribution patterns throughout the entire intestinal volume of live, larval zebrafish. Fluorescently tagged strains of seven bacterial symbionts, representing six different species native to zebrafish, were each separately mono-associated with animals that had been raised initially germ-free. The strains showed large differences in both cohesion---the degree to which they auto-aggregate---and spatial distribution. We uncovered a striking correlation between each strain's mean position and its cohesion, whether quantified as the fraction of cells existing as planktonic individuals, the average aggregate size, or the total number of aggregates. Moreover, these correlations held within species as well; aggregates of different sizes localized as predicted from the pan-species observations. Together, our findings indicate that bacteria within the zebrafish intestine are subject to generic processes that organize populations by their cohesive properties. The likely drivers of this relationship, peristaltic fluid flow, tubular anatomy, and bacterial growth and aggregation kinetics, are common throughout animals. We therefore suggest that the framework introduced here, of biophysical links between bacterial cohesion and spatial organization, should be useful for directing explorations in other host-microbe systems, formulating detailed models that can quantitatively map onto experimental data, and developing new tools that manipulate cohesion to engineer microbiome function.
+
+\section*{Introduction}
+%\linenumbers
+Dense and diverse communities of microbes reside in the intestines of humans and other animals. Their large impact on processes ranging from digestion to disease progression \cite{Cox2014,Kundu2017,McKenney2015} motivates a great deal of work aiming to uncover determinants of community composition and function. Because of the size and anatomy of the gut, and because of the remarkable number of microbial species that coexist within it---hundreds to thousands in humans---it is widely believed that spatial organization plays an important role in orchestrating community structure \cite{MarkWelch2017,Tropini2017}. In support of this, for example, recent studies have shown that distinct groups of bacteria inhabit the lumenal space of the intestine compared to the dense mucus layer lining the epithelium \cite{Pedron2012} and that distinct taxa are found in different regions along the length of the digestive tract \cite{Yasuda2015}.  The drivers of spatial organization are most often considered to be anatomical, as above, or biochemical, for example caused by variation in pH or the concentrations of nutrients, oxygen, or antimicrobial peptides \cite{Donaldson2015}.	
+
+Here, we suggest and demonstrate that the biophysical character of the microbes themselves, namely the degree to which they are planktonic or aggregated, can be a strong predictor of their populationÕs overall position within the intestine. In macroscopic ecological contexts, such relationships between morphology and spatial distribution are well known. For example, animal body mass is greater in colder regions (Bergmann's rule), likely due to the scaling of surface driven heat loss with size; phytoplankton aggregation is correlated with position in the water column, due to buoyancy \cite{Thornton2002}; and seed mass varies robustly with latitude, for reasons that are still unclear \cite{Moles2003}.	
+
+
+
+
+
+It remains an open question whether gut microbes are governed by broad, pan-species principles linking cellular behavior and large-scale distribution, or whether spatial structure is contingent on context- and species-specific interactions. Investigating this requires high-resolution imaging within live animals in a controlled setting, which has only recently become possible. Uncovering such principles would demonstrate that despite the biochemical complexity of the vertebrate microbiota, general biophysical principles governing the architecture of gut microbial communities may exist.	
+  
+Our study makes use of larval zebrafish (Fig. 1A, 1B), a model organism of particular utility to investigations of host-microbe interactions due to its anatomical and physiological similarities to other vertebrates, its optical transparency, and its amenability to gnotobiotic techniques for the creation of fish colonized only by particular microbial species \cite{Burns2017,Jemielita2014,Logan2018,Wiles2016}.  Zebrafish naturally associate with a diverse intestinal microbiome containing hundreds of bacterial species \cite{Rolig2017,Stephens2016} that influence a wide range of host processes \cite{Davison2017, Hill2016, Phelps2017, Troll2018}. Earlier work on the dynamics of two native zebrafish bacterial symbionts \cite{Wiles2016} and a human-derived pathogen \cite{Logan2018} showed associations between cellular growth mode, specifically whether the bacteria are planktonic or aggregated, and spatial distribution, specifically the location of the population along the length of the intestine, but the robustness and generality of this association remains unexplored. As detailed below, we find across multiple bacterial strains, and even within strains, that greater aggregation is strongly correlated with more posterior localization.
+
+
+\section*{Materials and Methods}
+
+\textit{Bacteria}: All bacterial strains used in this study are listed in Table 1. Each strain was previously engineered via Tn7-mediated insertion to constitutively express either dTomato or sfGFP fluorescent reporters from a single chromosomal locus \cite{Wiles2018}. Archived stocks of bacteria were maintained in 25\% glycerol at -80¡C. Prior to experiments, bacteria were directly inoculated from frozen stocks into 5ml lysogeny broth (LB) media (10g/L NaCl, 5g/L yeast extract, 12g/L tryptone, 1g/L glucose) and grown for ~16h (overnight) shaking at 30¡C.	
+
+\textit{Animal care and gnotobiology}: All experiments with zebrafish were done in accordance with protocols approved by the  University of Oregon Institutional Animal Care and Use Committee and following standard operating procedures \cite{Westerfield2007}. Wild-type (AB x TU strain) zebrafish were derived germ-free and colonized with bacterial strains as previously described \cite{Melancon2017} with slight modification (Supplemental Text).	 
+
+\textit{Live imaging}: Live imaging of larval zebrafish was conducted using a home-built light sheet fluorescence microscope previously described in detail \cite{Jemielita2014}. The full volume of the intestine (approximately 1200x300x150 microns) is captured in four sub-regions that are registered in software following imaging. An entire intestine sampled with 1-micron steps between planes is imaged in less than 1 minute. All images were taken with an exposure time of 30ms and an excitation laser power of 5mW at 488 nm and 561 nm wavelengths.
+
+\textit{Image analysis}: Three-dimensional image stacks were analyzed using a pipeline described in detail in \cite{Jemielita2014}, with minor changes (Supplemental Text).  The goal of the analysis is to identify the location and size of all bacterial clusters, ranging from individual, planktonic cells to large multicellular aggregates.  Small objects are identified using a spot detection algorithm calibrated to over count spots, which are then filtered using a trained classifier (Supplemental Text).  Large objects are segmented using a graph-cut algorithm \cite{Boykov2004}, typically seeded with a mask obtained by intensity thresholding.  The number of cells per multicellular aggregate is estimated by dividing the total fluorescence intensity of the aggregate by the average intensity of single cells in the same fish host.  In cases where single cells are sparse or absent, the average is taken across all single cells for that strain. From these estimates we compute the 1D center of population mass, i.e. the mean position weighted by population density at each position, normalized by intestine length (``population center''), and also calculate the various cohesion metrics discussed in the text.
+
+\textit{Data}: To maximize statistical power, we combined newly acquired data with a recently published image dataset obtained under identical conditions \cite{Wiles2018}.  The recently published data had been subjected to prior analysis to estimate overall bacterial abundances, but was reanalyzed here from scratch using the methods described above and in the Supplemental Text.  The combined dataset consisted of N=6 fish per strain, except for \textit{Plesiomonas} ZOR0011, which had N=3 fish.  The output of our computational pipeline, a text file containing the size and location of every bacterial cluster, with identifiers for strain, fish, and dataset, is included in Supplemental Data File 1, with details on its format in the Supplemental Text.  In addition, a spreadsheet with the cohesion and distribution metrics plotted in Figure 2 is included in Supplemental Data File 2. 	
+
+
+
+
+\section*{Experimental Design}	
+
+To investigate this putative relationship, we analyzed seven bacterial strains representing six different species (Table 1). All were isolated from zebrafish intestines, where they are common and abundant \cite{Stephens2016}.  Each species was previously engineered to constitutively express fluorescent proteins \cite{Wiles2018}.  To deduce relationships governing species morphology and its interaction with the gut environment, we examined animals that were sufficiently developed to exhibit stereotypical intestinal transport, and sufficiently young to permit germ-free derivation and handling. We first raised larvae germ-free and allowed them to be colonized with individual bacterial strains by inoculation of the aqueous medium for 24 hours starting at four days post-fertilization (dpf) (Methods and Supplemental Text). During this developmental stage, until roughly 7 dpf, larvae need not be fed and are sustained on yolk-derived nutrients, enabling maintenance under gnotobiotic conditions. The larval intestine is, however, highly active beginning at 3.5 days \mbox{\cite{shepherd2011development}} and exhibits a range of motility patterns, including coordinated peristalsis-like movements that are controlled by the enteric nervous system and can act on resident bacteria \mbox{\cite{ganz2018,Wiles2016}}.  After the colonization period, three-dimensional image stacks were acquired using a custom-built light sheet fluorescence microscope described in detail elsewhere \cite{Jemielita2014}. The images span the entire larval intestine, roughly 200 x 200 x 1000 microns in extent, with single-bacterium resolution. Additional details are provided in Methods. 	
+%\begin{table}
+%\centering
+%%\caption{\bf Bacterial strains and imaging-derived estimates of mono-association abundances \textit{in vivo} }
+%\begin{tabular}{l c }
+%%\midrule
+%\midrule
+% strain               & median abundance     \\
+%\midrule
+%\textit{Aeromonas veronii} ZOR0001 &    $8.4 \times 10^2$                \\
+%\textit{Aeromonas caviae} ZOR0002 &   $1.2 \times 10^3$                  \\
+%\textit{Enterobacter cloacae} ZOR0014   &   $ 3.5 \times 10^3$            \\
+%\textit{Plesiomonas} ZOR0011      &  $ 4.6 \times 10^3 $      \\
+%\textit{Pseudomonas mendocina} ZWU0006         &   $3.5 \times 10^2$               \\
+%\textit{Vibrio cholerae} ZOR0036       &    $1.6 \times 10^3$                 \\
+%\textit{Vibrio cholerae} ZWU0020       &    $2.0 \times 10^4$                 \\
+%\midrule        
+%\end{tabular}\caption{\textbf{Bacterial strains and imaging-derived estimates of mono-association abundances \textit{in vivo}}.  Abundances were estimated from 3D image stacks using the computational pipeline described in Methods and Supplementary Text}
+%\end{table}
+
+
+
+\section*{Results}
+
+
+Imaging multiple fish per strain revealed a broad spectrum of growth modes and bacterial distributions, ranging from the highly planktonic populations of \textit{Vibrio cholerae} ZWU0020 located within the anterior ÒbulbÓ (Fig. 1C, top; Supplemental Movie 1) to the almost entirely aggregated populations of \textit{Enterobacter cloacae} ZOR0014 located within the midgut (Fig. 1C, bottom). Most populations displayed intermediate mixtures of cellular growth modes and spatial distributions, similar to that of \textit{Aeromonas caviae} ZOR0002 (Fig. 1C, middle; Supplemental Fig. 1, Supplemental Movies 2-4). As with observations of \textit{Aeromonas} strains in earlier work \cite{Wiles2016}, bacterial aggregates were dense, compact, and cohesive. The predominant difference in spatial position between species was their location along the longitudinal axis of the intestine. We observed no strains, for example, that localized along the radial axis, lining the gut epithelium.	
+
+We computationally identified each individual bacterium and aggregate in each three-dimensional image stack, and also determined the number of cells in each aggregate \cite{Jemielita2014} (see Methods). For each population, we computed the center of mass along the longitudinal axis of the intestine, normalized by the total intestinal length, to represent its spatial distribution. We also enumerated the fraction of the population present as planktonic cells to represent the strainÕs growth mode. Plotting each strain's planktonic fraction versus its population center shows a clear and striking correlation (Fig. 2A). Linear regression of log$_{10}$-transformed planktonic fraction $(\log_{10}f_p)$ against center of mass position $(x_c)$ gives a coefficient of determination of $R^2$ = 0.91, and best-fit parameters	
+
+\be
+        	 \log_{10}f_p = (0.81 \pm 0.32) + (-5.4 \pm 0.8) x_c .	
+\ee
+
+Making use of our image segmentation of bacterial aggregates, we examined the relationship between mean object size and position. Defining a cluster as any group of bacteria (so that an individual bacterium is a cluster of size one), we find a strong correlation between each species' average cluster size (mean cells per cluster, $C_c$) and its center of mass (Fig. 2B, $R^2$ = 0.79);
+
+\be
+        	 \log_{10}C_c = (-0.74 \pm 0.47) + (4.9 \pm 1.1) x_c .
+\ee	
+
+
+Because $C_c$ is proportional to the total number of cells and inversely proportional to the number of clusters per fish $(n_c)$, the relationship in Fig. 2B could be caused by a dependence on either or both of these factors. However, the total population of each species, save for \textit{V. cholerae} ZWU0020, is roughly similar (Table 1); in contrast, $n_c$ is strongly negatively correlated with position (Fig. 2C, $R^2$ = 0.88). Regression gives
+
+\be
+        \log_{10}n_c = (4.7 \pm 0.5) + (-6.6 \pm 1.1) x_c .
+\ee	
+
+The slope, $-6.6 \pm 1.1$, is close to the negative of the slope of the $C_c$ vs $x_c$ relationship $(4.9 \pm 1.1)$, as would be expected if $C_c \sim 1/n_c$ with the overall population being species-independent. Together, the $C_c$ vs $x_c$  and $n_c$ vs $x_c$ relationships confirm the lack of a global correlation between abundance and location and imply instead that local interactions relate the size and positioning of aggregates. 	
+
+
+We next asked if the relationship between aggregation and intestinal distribution we found between strains could be detected within individual strain populations, which would further support its biophysical generality. For this, we considered only clusters of two or more cells because individual cells dominate each dataset. For each strain, excluding \textit{V. cholerae} ZWU0020 because it shows almost no aggregation (Fig. 2A), we combined measurements of cluster size and intestinal position from all specimens. We restricted our analysis to the anterior half of the intestine because the distal half rarely contained substantial populations (likely due to frequent intestinal expulsion), limiting our statistical power in that region. Regressing log$_{10}$-transformed sizes of aggregates against their position (Fig. 3, small circles and dashed trendlines), we found a positive correlation between aggregate size and aggregate position for each of the six strains (Table 2). Finding this relationship within strains, as well as across strains, suggests a generic mechanism that spatially segregates bacterial cells based on their cohesive properties, resulting in the localization of small aggregates to the anterior of the intestine and larger aggregates to the posterior.
+
+%\begin{table}%[h!]
+%\centering
+%\begin{tabular}{l c c }
+%%\midrule
+%\midrule
+% strain               & slope value     & uncertainty     \\
+%\midrule
+%\textit{Aeromonas veronii} ZOR0001 & 1.5   & 0.6               \\
+%\textit{Aeromonas caviae} ZOR0002    & 0.5 & 0.2    \\
+%\textit{Enterobacter cloacae} ZOR0014 & 1.5  & 0.4         \\
+%\textit{Plesiomonas} ZOR0011     & 1.4    & 1.5    \\
+%\textit{Pseudomonas mendocina} ZWU0006        & 1.1   & 1.4               \\
+%\textit{Vibrio cholerae} ZOR0036       & 0.8  & 0.3                \\
+%\midrule        
+%\end{tabular}\\
+%\caption{\textbf{Results of within-strain regressions in Fig 3}.  The regression was of $\log_{10}$-transformed cluster sizes (with size $\ge 2$) against normalized cluster positions.}
+%\end{table}
+
+
+
+
+\section*{Discussion}	
+
+Harnessing the natural variation displayed by native zebrafish symbionts and the spatial insights made possible by 3D live imaging, we have uncovered a quantitative relationship between bacterial cell behavior and large-scale spatial organization throughout the intestine. We found that across species and strains, the degree to which bacterial populations are aggregated, a biophysical characteristic we term ``cohesion'', correlates strongly with their mean position along the intestine. Moreover, looking within strains we were able to detect further signatures of the cohesion-distribution correlation: namely, the size and location of individual aggregates are also correlated. These findings suggest that the relationship between cohesion and spatial structure represents a general principle that manifests across both taxonomic and cellular scales. Intriguingly, the diverse species and strains we examined each have well-defined characteristics, while together they span the range from almost wholly planktonic to almost wholly aggregated, with the corresponding range of intestinal locations. Each of these bacterial strains is a zebrafish gut symbiont, and so it is reasonable to suspect that traits such as degree of aggregation have evolved to enhance their fitness in the intestinal environment, or are responses to features of that environment. Through these traits, the bacteria have the capacity to influence how the intestine shapes their populations.
+
+The specific mechanisms driving bacteria to aggregate may be complex. One can imagine, for example, simple adhesion of individual cells into clumps, assembly of aggregates through chemotaxis, and enchainment of daughter cells after division \mbox{\cite{Moor2017}}. We note that specific motility behaviors do not in themselves explain aggregation; our data show that populations of both motile and non-motile strains \mbox{\cite{Wiles2018}} are capable of generating aggregates. These aggregates are perhaps reminiscent of \textit{in vitro} surface-mediated biofilms, but are distinct in that they form three-dimensional clumps in the intestinal lumen rather than lining the walls, and there is in general no simple mapping between strains' highly context dependent \textit{in vitro} biofilm formation and \textit{in vivo} aggregation. Nonetheless, investigating potential mechanisms of aggregation would be a valuable target for future studies, especially with an aim towards designing perturbations of cohesion.
+
+We posit that the mechanism underlying the cohesion-distribution relationship emerges from the interplay between physical properties of the intestinal environment, especially its shape and peristaltic activity, and the cellular lifestyles of resident bacteria. As in all vertebrates, the larval zebrafish intestine is roughly tubular with a corrugated surface of villi, and transports and mixes contents using coordinated, periodic peristaltic contractions \cite{Wallace2005}.  Earlier work looking solely at \textit{A. veronii} ZOR0001 found aggregated microbes pushed and sporadically ejected by these contractions \cite{Wiles2016}; such forces more generally affect all aggregated bacteria. Theoretical studies of particle suspensions under low Reynolds number peristaltic flow also show spatial segregation of planktonic and aggregated cells \cite{Jimenez-Lozano2009}. These observations suggest that it should be possible to construct models that quantitatively match in vivo measurements and that offer predictions relevant for other animals, including humans. The development of such models will be challenging, as they must combine fluid dynamics, anatomy, and the nucleation, growth, and transport properties of bacterial aggregates. Aggregation kinetics are quantifiable from in vivo time-series imaging \cite{Jemielita2014}, and ongoing work, from both imaging and modeling, suggests that a robust, pan-species characterization of cluster dynamics is possible.	
+
+Even in the absence of such detailed models, however, it is reasonable to believe that the general relationship uncovered here will occur in larger systems, such as the human gut. Peristaltic transport, a tube-like geometry, and bacterial growth are universal features of all animal intestines. Given that Reynolds and Stokes numbers are low in both the zebrafish intestine and the much larger human intestine, we expect that the flow fields and particle transport that result from peristaltic contractions will be similar across scales. This similarity has already allowed quantitative comparisons of microbial compositions driven by pH and flow rates between in vitro fluidic devices and the human microbiome \cite{Cremer2016}.  Therefore, the longitudinal segregation of bacterial clusters by size that we observed here may be a generic consequence of peristaltic activity. Moreover, the finer-scale structure of crypts and folds affords still further possibilities for spatial structuring driven by the associated flow fields and bacterial cohesion. Host anatomy, diet, and biochemical heterogeneity will likely complicate this picture, but we suggest that a general trend connecting bacterial morphology and intestinal position is reasonable to expect and intriguing to search for. 	
+
+The relationship between cohesion and spatial distribution described here offers a framework for precision microbiome engineering. For example, by manipulating cohesion it may be possible to selectively displace bacterial populations from certain regions of the intestine or to remove them entirely. Reflecting this point, it was recently shown in a murine \textit{Salmonella} vaccine model that antibody-mediated enchaining of bacterial cells led to aggregation and intestinal expulsion \cite{Moor2017}.  In addition, peristaltic activity can change in response to diet, therapeutic drugs, infection, and a range of chronic diseases. Therefore, elaborating the link between cohesion, spatial structure, and flow may help explain diseases that result from microbial imbalances, and inspire methods for countering such changes in community composition through the targeted alteration of bacterial aggregation. 
+
+
+\section*{Author Contributions}
+BS, TW, KG, and RP designed the research.  TW and EW performed gnotobiotic procedures.  BS performed the imaging.  BS, TW, and RP analyzed the data.  All authors wrote the manuscript.
+
+\section*{Acknowledgements}
+
+Research was supported through the M.J. Murdock Charitable Trust and an award from the Kavli Microbiome Ideas Challenge, a project led by the American Society for Microbiology in partnership with the American Chemical Society and the American Physical Society and supported by The Kavli Foundation. Work was also supported by the National Science Foundation under Award 1427957. Authors received funding from the National Institutes of Health (NIH, http://www.nih.gov/), P50GM09891 to KG and RP, F32AI112094 to TJW, and T32GM007759 to BHS. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+%\newpage
+%\begin{figure*}%[h]
+%%\centerline{
+%	%\includegraphics[width =6 in]{Fig1.eps}}
+%	\caption{\textbf{Diversity of bacterial population structures within the zebrafish intestine}. (A) Schematic of a 5-day old larval zebrafish. (B) Schematic of a larval zebrafish intestine with the three general anatomical regions and their approximate relative sizes highlighted. (C) Representative images from across the range of observed population structures. Each image is a maximum intensity projection of a full 3D image stack, except for the top right inset, which is a single optical plane. Dashed amber lines trace the approximate boundaries of the intestine in each image. Examples of single cells (open arrowheads), small aggregates (closed arrowheads), and large aggregates (tailed arrowheads) are noted within insets under ``sub-region''. See also Supplementary Movies 1-4.  Top row: Populations of \textit{V. cholerae} ZWU0020 localize to the anterior bulb and are dominated by highly motile planktonic cells (Supplementary Movie 1). Inset shows \textit{V. cholerae} ZWU0020 cells in a different fish that was colonized with 1:100 mixture of green and red variants. The dilute channel (green) is shown. Middle row: Populations of \textit{A. caviae} ZOR0002 typically contain a range of bacterial aggregate sizes, as indicated by arrows. Inset shows a zoomed-in view of the same intestine. Bottom row: Populations of \textit{E. cloacae} ZOR0014 typically consist of small numbers of large aggregates. Inset shows a zoomed-in view of the same intestine.}
+%\end{figure*}
+%
+%\begin{figure*}%[h]
+%%\centerline{
+%	%\includegraphics[width =3 in]{Fig2.eps}}
+%	\caption{\textbf{Metrics of cohesion correlate with spatial distribution  across bacterial strains}. (A) the fraction of the population of each strain existing as single planktonic cells, (B) the average number of cells per cluster, and (C) the total number of clusters plotted against the population center, the center of mass position of each strain normalized by the length of the intestine. For the plots shown in B and C, individual cells are considered clusters of size 1. Circles show median values for each strain, bars show 25\% and 75\% quartiles. Trendlines were generated from the unweighted linear regression of log$_{10}$-transformed medians.}
+%\end{figure*}
+%
+%\begin{figure*}[h]
+%%\centerline{
+%	%\includegraphics[width =3 in]{Fig3.eps}}
+%	\caption{\textbf{Signatures of a cohesion-distribution relationship can be detected within populations at the strain level}.  For each strain shown, the size of every cluster with size 2 cells and greater across all samples is plotted against its normalized position along the intestine (small circles). Trendlines depict linear regressions of log$_{10}$-transformed cluster sizes against position (black dashed lines). To better highlight trends, data were binned by position and the mean ± standard deviation of cluster sizes were overlaid on each plot as large circles and bars. }
+%\end{figure*}
+
+
+
+
+\newpage
+
+%\bibliography{/Users/brandonschlomann/Documents/Gutz/PaperWriting/cohesion-biogeography/biophysJ_submission/cohesion_biophysJ_latex_version/cohesion_refs_with_page_numbers.bib}{}
+
+
+\begin{thebibliography}{10}
+	
+	\bibitem{Cox2014}
+	Laura~M. Cox, Shingo Yamanishi, Jiho Sohn, Alexander~V. Alekseyenko,
+	Jacqueline~M. Leung, Ilseung Cho, Sungheon~G. Kim, Huilin Li, Zhan Gao,
+	Douglas Mahana, Jorge~G. {Z{\'{a}}rate Rodriguez}, Arlin~B. Rogers, Nicolas
+	Robine, P'Ng Loke, and Martin~J. Blaser.
+	\newblock {Altering the intestinal microbiota during a critical developmental
+		window has lasting metabolic consequences}.
+	\newblock {\em Cell}, 158(4):705--721, 2014.
+	
+	\bibitem{Kundu2017}
+	Parag Kundu, Eran Blacher, Eran Elinav, and Sven Pettersson.
+	\newblock {Our Gut Microbiome: The Evolving Inner Self}.
+	\newblock {\em Cell}, 171(7):1481--1493, 2017.
+	
+	\bibitem{McKenney2015}
+	Peter~T. McKenney and Eric~G. Pamer.
+	\newblock {From Hype to Hope: The Gut Microbiota in Enteric Infectious
+		Disease}.
+	\newblock {\em Cell}, 163(6):1326--1332., 2015.
+	
+	\bibitem{MarkWelch2017}
+	Jessica~L. {Mark Welch}, Yuko Hasegawa, Nathan~P. McNulty, Jeffrey~I. Gordon,
+	and Gary~G. Borisy.
+	\newblock {Spatial organization of a model 15-member human gut microbiota
+		established in gnotobiotic mice}.
+	\newblock {\em Proceedings of the National Academy of Sciences}, page
+	201711596, 2017.
+	
+	\bibitem{Tropini2017}
+	Carolina Tropini, Kristen~A. Earle, Kerwyn~Casey Huang, and Justin~L.
+	Sonnenburg.
+	\newblock {The Gut Microbiome: Connecting Spatial Organization to Function}.
+	\newblock {\em Cell Host and Microbe}, 21(4):433--442, 2017.
+	
+	\bibitem{Pedron2012}
+	Thierry P{\'{e}}dron, C{\'{e}}line Mulet, Catherine Dauga, Lionel Frangeul,
+	Christian Chervaux, Gianfranco Grompone, and Philippe~J. Sansonettia.
+	\newblock {A crypt-specific core microbiota resides in the mouse colon}.
+	\newblock {\em mBio}, 3(3):e00116--12, 2012.
+	
+	\bibitem{Yasuda2015}
+	Koji Yasuda, Keunyoung Oh, Boyu Ren, Timothy~L. Tickle, Eric~A. Franzosa,
+	Lynn~M. Wachtman, Andrew~D. Miller, Susan~V. Westmoreland, Keith~G.
+	Mansfield, Eric~J. Vallender, Gregory~M. Miller, James~K. Rowlett, Dirk
+	Gevers, Curtis Huttenhower, and Xochitl~C. Morgan.
+	\newblock {Biogeography of the intestinal mucosal and lumenal microbiome in the
+		rhesus macaque}.
+	\newblock {\em Cell Host and Microbe}, 17(3):385--391, 2015.
+	
+	\bibitem{Donaldson2015}
+	Gregory~P. Donaldson, S.~Melanie Lee, and Sarkis~K. Mazmanian.
+	\newblock {Gut biogeography of the bacterial microbiota}.
+	\newblock {\em Nature Reviews Microbiology}, 14(1):20--32, 2015.
+	
+	\bibitem{Thornton2002}
+	Daniel~C.O. Thornton.
+	\newblock {Diatom aggregation in the sea: Mechanisms and ecological
+		implications}.
+	\newblock {\em European Journal of Phycology}, 37(2):149--161, 2002.
+	
+	\bibitem{Moles2003}
+	A.~T. Moles and M.~Westoby.
+	\newblock {Latitude, seed predation and seed mass}.
+	\newblock {\em Journal of Biogeography}, 30(1):105--128, 2003.
+	
+	\bibitem{Burns2017}
+	Adam~R. Burns and Karen Guillemin.
+	\newblock {The scales of the zebrafish: host--microbiota interactions from
+		proteins to populations}.
+	\newblock {\em Current Opinion in Microbiology}, 38:137--141, 2017.
+	
+	\bibitem{Jemielita2014}
+	Matthew Jemielita, Michael~J Taormina, Adam~R Burns, Jennifer~S Hampton,
+	Annah~S Rolig, Karen Guillemin, and Raghuveer Parthasarathy.
+	\newblock {Spatial and temporal features of the growth of a
+		bacterial$\backslash$nspecies colonizing the zebrafish gut}.
+	\newblock {\em MBio}, 5(6):1--8, 2014.
+	
+	\bibitem{Logan2018}
+	Savannah~L. Logan, Jacob Thomas, Jinyuan Yan, Ryan~P. Baker, Drew~S. Shields,
+	Joao~B. Xavier, Brian~K. Hammer, and Raghuveer Parthasarathy.
+	\newblock {The Vibrio cholerae type VI secretion system can modulate host
+		intestinal mechanics to displace gut bacterial symbionts}.
+	\newblock {\em Proceedings of the National Academy of Sciences},
+	115(16):E3779--E3787, 2018.
+	
+	\bibitem{Wiles2016}
+	Travis~J. Wiles, Matthew Jemielita, Ryan~P. Baker, Brandon~H. Schlomann,
+	Savannah~L. Logan, Julia Ganz, Ellie Melancon, Judith~S. Eisen, Karen
+	Guillemin, and Raghuveer Parthasarathy.
+	\newblock {Host Gut Motility Promotes Competitive Exclusion within a Model
+		Intestinal Microbiota}.
+	\newblock {\em PLoS Biology}, 14(7):1--24, 2016.
+	
+	\bibitem{Rolig2017}
+	Annah~S. Rolig, Erika~K. Mittge, Julia Ganz, Josh~V. Troll, Ellie Melancon,
+	Travis~J. Wiles, Kristin Alligood, W.~Zac Stephens, Judith~S. Eisen, and
+	Karen Guillemin.
+	\newblock {The enteric nervous system promotes intestinal health by
+		constraining microbiota composition}.
+	\newblock {\em PLoS Biology}, 15(2):e2000689, 2017.
+	
+	\bibitem{Stephens2016}
+	W.~Zac Stephens, Adam~R. Burns, Keaton Stagaman, Sandi Wong, John~F. Rawls,
+	Karen Guillemin, and Brendan~J.M. Bohannan.
+	\newblock {The composition of the zebrafish intestinal microbial community
+		varies across development}.
+	\newblock {\em ISME Journal}, 10:644--654, 2016.
+	
+	\bibitem{Davison2017}
+	James~M. Davison, Colin~R. Lickwar, Lingyun Song, Ghislain Breton, Gregory~E.
+	Crawford, and John~F. Rawls.
+	\newblock {Microbiota regulate intestinal epithelial gene expression by
+		suppressing the transcription factor Hepatocyte nuclear factor 4 alpha}.
+	\newblock {\em Genome Research}, pages gr----220111, 2017.
+	
+	\bibitem{Hill2016}
+	Jennifer~Hampton Hill, Eric~A. Franzosa, Curtis Huttenhower, and Karen
+	Guillemin.
+	\newblock {A conserved bacterial protein induces pancreatic beta cell expansion
+		during zebrafish development}.
+	\newblock {\em eLife}, 5:e20145, 2016.
+	
+	\bibitem{Phelps2017}
+	Drake Phelps, Nichole~E. Brinkman, Scott~P. Keely, Emily~M. Anneken, Tara~R.
+	Catron, Doris Betancourt, Charles~E. Wood, Scott~T. Espenschied, John~F.
+	Rawls, and Tamara Tal.
+	\newblock {Microbial colonization is required for normal neurobehavioral
+		development in zebrafish}.
+	\newblock {\em Scientific Reports}, 7(1):11244, 2017.
+	
+	\bibitem{Troll2018}
+	Joshua~V. Troll, M.~Kristina Hamilton, Melissa~L. Abel, Julia Ganz, Jennifer~M.
+	Bates, W.~Zac Stephens, Ellie Melancon, Michiel van~der Vaart, Annemarie~H.
+	Meijer, Martin Distel, Judith~S. Eisen, and Karen Guillemin.
+	\newblock {Microbiota promote secretory cell determination in the intestinal
+		epithelium by modulating host Notch signaling}.
+	\newblock {\em Development}, 145(4):dev155317, 2018.
+	
+	\bibitem{Wiles2018}
+	Travis~J. Wiles, Elena~S. Wall, Brandon~H. Schlomann, Edouard~A. Hay, Raghuveer
+	Parthasarathy, and Karen Guillemin.
+	\newblock Modernized tools for streamlined genetic manipulation and comparative
+	study of wild and diverse proteobacterial lineages.
+	\newblock {\em mBio}, 9(5):e01877--18, 2018.
+	
+	\bibitem{Westerfield2007}
+	M.~Westerfield.
+	\newblock {The Zebrafish Book. A Guide for the Laboratory Use of Zebrafish
+		(Danio rerio), 5th Edition}.
+	\newblock {\em University of Oregon Press, Eugene (Book)}, 2007.
+	
+	\bibitem{Melancon2017}
+	E.~Melancon, S.~{Gomez De La Torre Canny}, S.~Sichel, M.~Kelly, T.~J. Wiles,
+	J.~F. Rawls, J.~S. Eisen, and K.~Guillemin.
+	\newblock {Best practices for germ-free derivation and gnotobiotic zebrafish
+		husbandry}.
+	\newblock {\em Methods in Cell Biology}, 138:61--100, 2017.
+	
+	\bibitem{Boykov2004}
+	Y.~Boykov and V.~Kolmogorov.
+	\newblock {An experimental comparison of min-cut/max- flow algorithms for
+		energy minimization in vision}.
+	\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	26(9):1124--1137, 2004.
+	
+	\bibitem{shepherd2011development}
+	Iain Shepherd and Judith Eisen.
+	\newblock Development of the zebrafish enteric nervous system.
+	\newblock In {\em Methods in cell biology}, volume 101, pages 143--160.
+	Elsevier, 2011.
+	
+	\bibitem{ganz2018}
+	J.~Ganz, R.~P. Baker, M.~K. Hamilton, E.~Melancon, P.~Diba, J.~S. Eisen, and
+	R.~Parthasarathy.
+	\newblock Image velocimetry and spectral analysis enable quantitative
+	characterization of larval zebrafish gut motility.
+	\newblock {\em Neurogastroenterology \& Motility}, 30(9):e13351, 2018.
+	
+	\bibitem{Moor2017}
+	Kathrin Moor, M{\'{e}}d{\'{e}}ric Diard, Mikael~E. Sellin, Boas Felmy,
+	Sandra~Y. Wotzka, Albulena Toska, Erik Bakkeren, Markus Arnoldini, Florence
+	Bansept, Alma~Dal Co, Tom V{\"{o}}ller, Andrea Minola, Blanca
+	Fernandez-Rodriguez, Gloria Agatic, Sonia Barbieri, Luca Piccoli, Costanza
+	Casiraghi, Davide Corti, Antonio Lanzavecchia, Roland~R. Regoes, Claude
+	Loverdo, Roman Stocker, Douglas~R. Brumley, Wolf~Dietrich Hardt, and Emma
+	Slack.
+	\newblock {High-avidity IgA protects the intestine by enchaining growing
+		bacteria}.
+	\newblock {\em Nature}, 544(7651):498, 2017.
+	
+	\bibitem{Wallace2005}
+	Kenneth~N. Wallace, Shafinaz Akhter, Erin~M. Smith, Kristin Lorent, and Michael
+	Pack.
+	\newblock {Intestinal growth and differentiation in zebrafish}.
+	\newblock {\em Mechanisms of Development}, 122(2):157--173, 2005.
+	
+	\bibitem{Jimenez-Lozano2009}
+	Joel Jim{\'{e}}nez-Lozano, Mihir Sen, and Patrick~F. Dunn.
+	\newblock {Particle motion in unsteady two-dimensional peristaltic flow with
+		application to the ureter}.
+	\newblock {\em Physical Review E - Statistical, Nonlinear, and Soft Matter
+		Physics}, 79(4):18--20, 2009.
+	
+	\bibitem{Cremer2016}
+	Jonas Cremer, Igor Segota, Chih-yu Yang, Markus Arnoldini, John~T. Sauls,
+	Zhongge Zhang, Edgar Gutierrez, Alex Groisman, and Terence Hwa.
+	\newblock {Effect of flow and peristaltic mixing on bacterial growth in a
+		gut-like channel}.
+	\newblock {\em Proceedings of the National Academy of Sciences},
+	113(41):11414--11419, 2016.
+	
+\end{thebibliography}
+
+\bibliographystyle{unsrt}
+
+
+
+
+
