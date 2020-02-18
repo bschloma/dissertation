@@ -1,0 +1,24 @@
+\documentclass[dissertation, copyright, numsections, gsmodern, final]{uothesis}
+\usepackage[english,UKenglish]{babel}
+
+%%%PREFATORY PAGES
+\include{cover}
+\include{abstract}
+\include{cv}
+\include{acknowledgements}  %%acknowledgements page optional
+\include{dedication} %%dedication page optional
+
+%%%MAIN DOCUMENT
+\graphicspath{{./figures/}}
+\begin{document}
+\maketitle
+%%%CHAPTERS
+\include{chapter1}
+
+%%%APPENDICES
+%\appendix
+%\include{appendix1}
+%%BIBILIOGRAPHY
+\bibliographystyle{unsrtnat}
+\bibliography{mybib} %%disbib.bib uses BibTex formatting.
+\end{document}
