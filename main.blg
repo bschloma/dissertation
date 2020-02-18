@@ -1,4 +1,75 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 A level-1 auxiliary file: chapter1.aux
-The style file: unsrtnat.bst
+A level-1 auxiliary file: chapter2.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: chapter3.aux
+Illegal, another \bibstyle command---line 106 of file chapter3.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 10 of file main.aux
+ : \bibstyle
+ :          {unsrtnat}
+I'm skipping whatever remains of this command
 Database file #1: mybib.bib
+Warning--I didn't find a database entry for "Cox2014"
+Warning--I didn't find a database entry for "Kundu2017"
+Warning--I didn't find a database entry for "McKenney2015"
+Warning--I didn't find a database entry for "MarkWelch2017"
+Warning--I didn't find a database entry for "Tropini2017"
+Warning--I didn't find a database entry for "Pedron2012"
+Warning--I didn't find a database entry for "Yasuda2015"
+Warning--I didn't find a database entry for "Donaldson2015"
+Warning--I didn't find a database entry for "Thornton2002"
+Warning--I didn't find a database entry for "Moles2003"
+Warning--I didn't find a database entry for "Burns2017"
+Warning--I didn't find a database entry for "Jemielita2014"
+Warning--I didn't find a database entry for "Logan2018"
+Warning--I didn't find a database entry for "Wiles2016"
+Warning--I didn't find a database entry for "Rolig2017"
+Warning--I didn't find a database entry for "Stephens2016"
+Warning--I didn't find a database entry for "Davison2017"
+Warning--I didn't find a database entry for "Hill2016"
+Warning--I didn't find a database entry for "Phelps2017"
+Warning--I didn't find a database entry for "Troll2018"
+Warning--I didn't find a database entry for "Wiles2018"
+Warning--I didn't find a database entry for "Westerfield2007"
+Warning--I didn't find a database entry for "Melancon2017"
+Warning--I didn't find a database entry for "Boykov2004"
+Warning--I didn't find a database entry for "shepherd2011development"
+Warning--I didn't find a database entry for "ganz2018"
+Warning--I didn't find a database entry for "Moor2017"
+Warning--I didn't find a database entry for "Wallace2005"
+Warning--I didn't find a database entry for "Jimenez-Lozano2009"
+Warning--I didn't find a database entry for "Cremer2016"
+Warning--I didn't find a database entry for "levins1968evolution"
+Warning--I didn't find a database entry for "landeBook"
+Warning--I didn't find a database entry for "melbingerSREP_2015"
+Warning--I didn't find a database entry for "fisher2014transition"
+Warning--I didn't find a database entry for "hastings2016timescales"
+Warning--I didn't find a database entry for "beddington1977harvesting"
+Warning--I didn't find a database entry for "schaefer1957study"
+Warning--I didn't find a database entry for "lande1995optimal"
+Warning--I didn't find a database entry for "dickens2016analytically"
+Warning--I didn't find a database entry for "karlin1981second"
+Warning--I didn't find a database entry for "pershing2015slow"
+Warning--I didn't find a database entry for "trosvik2015biotic"
+Warning--I didn't find a database entry for "caporaso2011moving"
+Warning--I didn't find a database entry for "relmanABX_2011"
+Warning--I didn't find a database entry for "wilesPLOS2016"
+Warning--I didn't find a database entry for "hanson1981"
+Warning--I didn't find a database entry for "bover1978moment"
+Warning--I didn't find a database entry for "lande1993risks"
+Warning--I didn't find a database entry for "jacod2013limit"
+Warning--I didn't find a database entry for "peskin1995quantum"
+Warning--I didn't find a database entry for "jona1975renormalization"
+Warning--I didn't find a database entry for "hansonBook"
+Warning--I didn't find a database entry for "broca2004cumulant"
+Warning--I didn't find a database entry for "bao2011competitive"
+Warning--I didn't find a database entry for "shaffer1987minimum"
+Warning--I didn't find a database entry for "hanson1998optimal"
+Warning--I didn't find a database entry for "visco2010switching"
+Warning--I didn't find a database entry for "mil1975approximate"
+Warning--I didn't find a database entry for "engen2000"
+Warning--I didn't find a database entry for "linetsky2010constant"
+(There were 2 error messages)
