@@ -1,32 +1,32 @@
 \babel@toc {UKenglish}{}
 \contentsline {chapter}{\numberline {I}\uppercase {Introduction}}{1}% 
 \contentsline {chapter}{\numberline {II}\uppercase {Bacterial cohesion predicts spatial distribution in the larval zebrafish intestine}}{2}% 
-\contentsline {chapter}{REFERENCES CITED}{15}% 
-\contentsline {chapter}{\numberline {III}\uppercase {Stationary moments, diffusion limits, and extinction times for logistic growth with random catastrophes}}{19}% 
-\contentsline {section}{ \numberline {3.1} Introduction}{21}% 
-\contentsline {section}{ \numberline {3.2} Background on the Logistic Random Catastrophe model}{23}% 
-\contentsline {section}{ \numberline {3.3} Results}{24}% 
-\contentsline {subsection}{ \numberline {3.3.1} Deriving exact expressions for LRC stationary moments}{24}% 
-\contentsline {subsection}{ \numberline {3.3.2} A single, effective catastrophe parameter largely controls LRC moments}{26}% 
-\contentsline {subsection}{ \numberline {3.3.3} The diffusion limit shows that random catastrophes pose higher extinction risk than environmental stochasticity}{28}% 
-\contentsline {section}{ \numberline {3.4} Discussion}{31}% 
-\contentsline {section}{ \numberline {3.5} Materials and Methods}{33}% 
-\contentsline {subsection}{ \numberline {3.5.1} LRC and LES model simulations}{33}% 
-\contentsline {subsection}{ \numberline {3.5.2} The diffusion limit}{34}% 
-\contentsline {subsection}{ \numberline {3.5.3} Extinction times}{34}% 
-\contentsline {section}{ \numberline {3.6} Acknowledgements}{34}% 
-\contentsline {section}{ \numberline {.7} Detailed calculation of stationary moments}{35}% 
-\contentsline {subsection}{ \numberline {.7.1} LRC model}{35}% 
-\contentsline {subsection}{ \numberline {.7.2} LES model}{38}% 
-\contentsline {section}{ \numberline {.8} The diffusion limit and the Central Limit Theorem}{39}% 
-\contentsline {subsection}{ \numberline {.8.1} Motivation}{40}% 
-\contentsline {subsection}{ \numberline {.8.2} Functional Central Limit Theorems}{41}% 
-\contentsline {subsection}{ \numberline {.8.3} Convergence of LRC to LES}{44}% 
-\contentsline {section}{ \numberline {.9} An alternative mapping that equates stationary means}{46}% 
-\contentsline {chapter}{REFERENCES CITED}{47}% 
+\contentsline {chapter}{REFERENCES CITED}{18}% 
+\contentsline {chapter}{\numberline {III}\uppercase {Stationary moments, diffusion limits, and extinction times for logistic growth with random catastrophes}}{22}% 
+\contentsline {section}{ \numberline {3.1} Introduction}{24}% 
+\contentsline {section}{ \numberline {3.2} Background on the Logistic Random Catastrophe model}{26}% 
+\contentsline {section}{ \numberline {3.3} Results}{27}% 
+\contentsline {subsection}{ \numberline {3.3.1} Deriving exact expressions for LRC stationary moments}{27}% 
+\contentsline {subsection}{ \numberline {3.3.2} A single, effective catastrophe parameter largely controls LRC moments}{29}% 
+\contentsline {subsection}{ \numberline {3.3.3} The diffusion limit shows that random catastrophes pose higher extinction risk than environmental stochasticity}{31}% 
+\contentsline {section}{ \numberline {3.4} Discussion}{34}% 
+\contentsline {section}{ \numberline {3.5} Materials and Methods}{36}% 
+\contentsline {subsection}{ \numberline {3.5.1} LRC and LES model simulations}{36}% 
+\contentsline {subsection}{ \numberline {3.5.2} The diffusion limit}{37}% 
+\contentsline {subsection}{ \numberline {3.5.3} Extinction times}{37}% 
+\contentsline {section}{ \numberline {3.6} Acknowledgements}{37}% 
+\contentsline {section}{ \numberline {.7} Detailed calculation of stationary moments}{38}% 
+\contentsline {subsection}{ \numberline {.7.1} LRC model}{38}% 
+\contentsline {subsection}{ \numberline {.7.2} LES model}{41}% 
+\contentsline {section}{ \numberline {.8} The diffusion limit and the Central Limit Theorem}{42}% 
+\contentsline {subsection}{ \numberline {.8.1} Motivation}{43}% 
+\contentsline {subsection}{ \numberline {.8.2} Functional Central Limit Theorems}{44}% 
+\contentsline {subsection}{ \numberline {.8.3} Convergence of LRC to LES}{47}% 
+\contentsline {section}{ \numberline {.9} An alternative mapping that equates stationary means}{49}% 
+\contentsline {chapter}{REFERENCES CITED}{50}% 
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
-\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Sublethal antibiotics collapse gut bacterial populations by enhancing aggregation and expulsion}}{50}% 
-\contentsline {chapter}{REFERENCES CITED}{74}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Motaxis paper here}}{78}% 
-\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Conclusion}}{79}% 
-\contentsline {chapter}{REFERENCES CITED}{80}% 
+\contentsline {chapter}{\number@appendix {1}{A} \uppercase {Sublethal antibiotics collapse gut bacterial populations by enhancing aggregation and expulsion}}{57}% 
+\contentsline {chapter}{REFERENCES CITED}{86}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Motaxis paper here}}{90}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Conclusion}}{91}% 
+\contentsline {chapter}{REFERENCES CITED}{92}% 

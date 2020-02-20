@@ -1,0 +1,148 @@
+\begin{thebibliography}{10}
+
+\bibitem{Westerfield2007}
+M.~Westerfield.
+\newblock {The Zebrafish Book. A Guide for the Laboratory Use of Zebrafish
+  (Danio rerio), 5th Edition}.
+\newblock {\em University of Oregon Press, Eugene (Book)}, 2007.
+
+\bibitem{Melancon2017}
+E.~Melancon, S.~{Gomez De La Torre Canny}, S.~Sichel, M.~Kelly, T.~J. Wiles,
+  J.~F. Rawls, J.~S. Eisen, and K.~Guillemin.
+\newblock {Best practices for germ-free derivation and gnotobiotic zebrafish
+  husbandry}.
+\newblock {\em Methods in Cell Biology}, 138:61--100, 2017.
+
+\bibitem{Stephens2016}
+W.~Zac Stephens, Adam~R. Burns, Keaton Stagaman, Sandi Wong, John~F. Rawls,
+  Karen Guillemin, and Brendan~J.M. Bohannan.
+\newblock {The composition of the zebrafish intestinal microbial community
+  varies across development}.
+\newblock {\em ISME Journal}, 10:644--654, 2016.
+
+\bibitem{Wiles2018}
+Travis~J. Wiles, Elena~S. Wall, Brandon~H. Schlomann, Edouard~A. Hay, Raghuveer
+  Parthasarathy, and Karen Guillemin.
+\newblock Modernized tools for streamlined genetic manipulation and comparative
+  study of wild and diverse proteobacterial lineages.
+\newblock {\em mBio}, 9(5):e01877--18, 2018.
+
+\bibitem{erill2007aeons}
+Ivan Erill, Susana Campoy, and Jordi Barb{\'e}.
+\newblock Aeons of distress: an evolutionary perspective on the bacterial sos
+  response.
+\newblock {\em FEMS Microbiology Reviews}, 31(6):637--656, 2007.
+
+\bibitem{kreuzer2013dna}
+Kenneth~N Kreuzer.
+\newblock Dna damage responses in prokaryotes: regulating gene expression,
+  modulating growth patterns, and manipulating replication forks.
+\newblock {\em Cold Spring Harbor Perspectives in Biology}, 5(11):a012674,
+  2013.
+
+\bibitem{courcelle2001comparative}
+Justin Courcelle, Arkady Khodursky, Brian Peter, Patrick~O Brown, and Philip~C
+  Hanawalt.
+\newblock Comparative gene expression profiles following uv exposure in
+  wild-type and sos-deficient escherichia coli.
+\newblock {\em Genetics}, 158(1):41--64, 2001.
+
+\bibitem{Krin2018}
+Evelyne Krin, Sebastian~Aguilar Pierl{\'e}, Odile Sismeiro, Bernd Jagla,
+  Marie-Agn{\`e}s Dillies, Hugo Varet, Oihane Irazoki, Susana Campoy, Zo{\'e}
+  Rouy, St{\'e}phane Cruveiller, Claudine M{\'e}digue, Jean-Yves Copp{\'e}e,
+  and Didier Mazel.
+\newblock Expansion of the sos regulon of vibrio cholerae through extensive
+  transcriptome analysis and experimental validation.
+\newblock {\em BMC Genomics}, 19(1):373, May 2018.
+
+\bibitem{olins1989novel}
+Peter~O Olins and SH~Rangwala.
+\newblock A novel sequence element derived from bacteriophage t7 mrna acts as
+  an enhancer of translation of the lacz gene in escherichia coli.
+\newblock {\em Journal of Biological Chemistry}, 264(29):16973--16976, 1989.
+
+\bibitem{olins1988t7}
+Peter~O Olins, Catherine~S Devine, Shaukat~H Rangwala, and Kamilla~S Kavka.
+\newblock The t7 phage gene 10 leader rna, a ribosome-binding site that
+  dramatically enhances the expression of foreign genes in escherichia coli.
+\newblock {\em Gene}, 73(1):227--235, 1988.
+
+\bibitem{chen2013characterization}
+Ying-Ja Chen, Peng Liu, Alec~AK Nielsen, Jennifer~AN Brophy, Kevin Clancy, Todd
+  Peterson, and Christopher~A Voigt.
+\newblock Characterization of 582 natural and synthetic terminators and
+  quantification of their design constraints.
+\newblock {\em Nature Methods}, 10(7):659, 2013.
+
+\bibitem{milligan2011study}
+Kathryn Milligan-Myhre, Jeremy~R Charette, Ryan~T Phennicie, W~Zac Stephens,
+  John~F Rawls, Karen Guillemin, and Carol~H Kim.
+\newblock Study of host--microbe interactions in zebrafish.
+\newblock In {\em Methods in Cell Biology}, volume 105, pages 87--116.
+  Elsevier, 2011.
+
+\bibitem{Jemielita2014}
+Matthew Jemielita, Michael~J Taormina, Adam~R Burns, Jennifer~S Hampton,
+  Annah~S Rolig, Karen Guillemin, and Raghuveer Parthasarathy.
+\newblock Spatial and temporal features of the growth of a bacterial species
+  colonizing the zebrafish gut.
+\newblock {\em mBio}, 5(6):1--8, 2014.
+
+\bibitem{netuschil2014confusion}
+Lutz Netuschil, Thorsten~M Auschill, Anton Sculean, and Nicole~B Arweiler.
+\newblock Confusion over live/dead stainings for the detection of vital
+  microorganisms in oral biofilms-which stain is suitable?
+\newblock {\em BMC Oral Health}, 14(1):2, 2014.
+
+\bibitem{schlomann2018bacterial}
+Brandon~H Schlomann, Travis~J Wiles, Elena~S Wall, Karen Guillemin, and
+  Raghuveer Parthasarathy.
+\newblock Bacterial cohesion predicts spatial distribution in the larval
+  zebrafish intestine.
+\newblock {\em Biophysical Journal}, 115(11):2271--2277, 2018.
+
+\bibitem{Boykov2004}
+Y.~Boykov and V.~Kolmogorov.
+\newblock {An experimental comparison of min-cut/max- flow algorithms for
+  energy minimization in vision}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  26(9):1124--1137, 2004.
+
+\bibitem{Wiles2016}
+Travis~J. Wiles, Matthew Jemielita, Ryan~P. Baker, Brandon~H. Schlomann,
+  Savannah~L. Logan, Julia Ganz, Ellie Melancon, Judith~S. Eisen, Karen
+  Guillemin, and Raghuveer Parthasarathy.
+\newblock {Host Gut Motility Promotes Competitive Exclusion within a Model
+  Intestinal Microbiota}.
+\newblock {\em PLoS Biology}, 14(7):1--24, 2016.
+
+\bibitem{krapivsky2010kinetic}
+Pavel~L Krapivsky, Sidney Redner, and Eli Ben-Naim.
+\newblock {\em A Kinetic View of Statistical Physics}.
+\newblock Cambridge University Press, 2010.
+
+\bibitem{krapivsky1996transitional}
+PL~Krapivsky and S~Redner.
+\newblock Transitional aggregation kinetics in dry and damp environments.
+\newblock {\em Physical Review E}, 54(4):3553, 1996.
+
+\bibitem{gillespie1977exact}
+Daniel~T Gillespie.
+\newblock Exact stochastic simulation of coupled chemical reactions.
+\newblock {\em The Journal of Physical Chemistry}, 81(25):2340--2361, 1977.
+
+\bibitem{gillespie2001approximate}
+Daniel~T Gillespie.
+\newblock Approximate accelerated stochastic simulation of chemically reacting
+  systems.
+\newblock {\em The Journal of Chemical Physics}, 115(4):1716--1733, 2001.
+
+\bibitem{ben2005genetic}
+Kaouther Ben-Amor, Hans Heilig, Hauke Smidt, Elaine~E Vaughan, Tjakko Abee, and
+  Willem~M de~Vos.
+\newblock Genetic diversity of viable, injured, and dead fecal bacteria
+  assessed by fluorescence-activated cell sorting and 16s rrna gene analysis.
+\newblock {\em Applied and Environmental Microbiology}, 71(8):4679--4689, 2005.
+
+\end{thebibliography}
