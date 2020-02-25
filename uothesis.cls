@@ -1059,9 +1059,9 @@ extra appendices; rerun LaTeX}
 \fi}
 \def\appendix{
 \par
-\setcounter{chapter}{0}
+\setcounter{chapter}{0} % this part is messing with the chapter numbers. -BHS
 \def\@chapapp{\uppercase{appendix}}
-\def\thechapter{\Alph{chapter}}
+\def\thechapter{\Alph{chapter}} 
 \@appendicestrue}
 
 \ifx\@savdim\undefined

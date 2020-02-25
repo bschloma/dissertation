@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.20)  20 FEB 2020 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.20)  25 FEB 2020 11:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -841,11 +841,7 @@ Package natbib Warning: Citation `Melancon2017' multiply defined.
 
 Package natbib Warning: Citation `Jemielita2014' multiply defined.
 
-) (chapter5.aux
-
-LaTeX Warning: Label `ducks' multiply defined.
-
-) (chapter6.aux
+) (chapter5.aux) (chapter6.aux
 
 LaTeX Warning: Label `ducks' multiply defined.
 
@@ -1108,7 +1104,54 @@ Overfull \hbox (12.56377pt too wide) detected at line 30
  []
 
 
-Overfull \hbox (12.72903pt too wide) detected at line 31
+Overfull \hbox (55.2973pt too wide) in paragraph at lines 30--30
+ [][]  []  \OT1/cmr/m/n/12 SWIM-MING MOTIL-ITY OF A GUT BAC-TERIAL SYM-BIONT PR
+O-MOTES 
+ []
+
+
+Overfull \hbox (87.25392pt too wide) in paragraph at lines 30--30
+ \OT1/cmr/m/n/12 RES-IST-ANCE TO IN-TEST-INAL EX-PUL-SION AND EN-HANCES IN-FLAM
+-MA-TION [][]  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 31
+ \OT1/cmr/m/n/12 B.1.  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 32
+ \OT1/cmr/m/n/12 B.2.  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 33
+ \OT1/cmr/m/n/12 B.3.  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 41
+ \OT1/cmr/m/n/12 B.4.  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 42
+ \OT1/cmr/m/n/12 B.5.  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 68
+ \OT1/cmr/m/n/12 B.6.  
+ []
+
+
+Overfull \hbox (34.75798pt too wide) detected at line 69
+ \OT1/cmr/m/n/12 B.7.  
+ []
+
+
+Overfull \hbox (12.72903pt too wide) detected at line 71
  \OT1/cmr/m/n/12 C.  
  []
 
@@ -1333,447 +1376,649 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [9
 
 ]
-Overfull \hbox (29.39886pt too wide) in paragraph at lines 6--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+  []\OT1/cmr/bx/n/12 Sample paths of LRC and LES models. A: \OT1/cmr/m/n/12 A s
+ample path 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+  []\OT1/cmr/bx/n/12 Analytic results reveal statistical structure of LRC model
+. A: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \OT1/cmr/m/n/12 Analytic results for stationary cumulants agree with numerical
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \OT1/cmr/m/n/12 simulations. Time evolution of the first 4 cumulants, $\OML/cm
+m/m/it/12 C[]$\OT1/cmr/m/n/12 , of the LRC 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \OT1/cmr/m/n/12 model, computed numerically (solid lines). Dashed lines indica
+te the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \OT1/cmr/m/n/12 asymptotic values predicted by the analytic results, with the 
+cumulants 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \OT1/cmr/m/n/12 validity of $\OML/cmm/m/it/12  [] f$ \OT1/cmr/m/n/12 as an ef
+fective catastrophe parameter. Parameters were 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ \OT1/cmr/m/n/12 factor $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 . Dashed lines are 
+analytic results for first 4 stationary 
+ []
+
+
+Overfull \hbox (12.39622pt too wide) in paragraph at lines 8--8
+  []\OT1/cmr/bx/n/12 The dif-fu-sion limit and ex-tinc-tion[]Etimes. A: \OT1/cm
+r/m/n/12 Smoothly trans-form-ing 
+ []
+
+
+Overfull \hbox (33.55994pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 the sta-tion-ary dis-tri-bu-tion of LRC model to that of LES m
+odel in the dif-fu-sion 
+ []
+
+
+Overfull \hbox (28.84607pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 in-verse growth rate for 5 val-ues of the scale para-meter $\O
+ML/cmm/m/it/12 $\OT1/cmr/m/n/12 , res-cal-ing para-met-ers 
+ []
+
+
+Overfull \hbox (7.29213pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 ac-cord-ing to equa-tion (8). Frames i-v de-pict the sta-tion-
+ary dis-tri-bu-tion of 
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 8--8
+ [] \OML/cmm/m/it/12 X$ \OT1/cmr/m/n/12 (for visual clar-ity) for $\OML/cmm/m/i
+t/12  \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 
+:\OT1/cmr/m/n/12 94\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 8\OML/cmm/m/it/12 :\OT1/c
+mr/m/n/12 66\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 :\OT1/cmr/m/n
+/12 49\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 75\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 00
+$ re-spect-ively, 
+ []
+
+
+Overfull \hbox (3.03395pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 es-tim-ated from $10[]$ paths. Frame vi de-picts the sta-tion-
+ary dis-tri-bu-tion of 
+ []
+
+
+Overfull \hbox (54.84027pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 as the LRC model is morphed into the LES model (bot-tom), des-
+pite the sta-tion-ary 
+ []
+
+
+Overfull \hbox (16.75731pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 mean re-main-ing con-stant through-out the trans-form-a-tion (
+top). Para-met-ers: 
+ []
+
+
+Overfull \hbox (9.01988pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 Mean times to ex-tinc-tion for the be-gin-ning (purple circles
+) and end (green 
+ []
+
+
+Overfull \hbox (57.09856pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 squares) points of the dif-fu-sion limit as a func-tion of car
+-ry-ing ca-pa-city. Para-met-ers: 
+ []
+
+
+Overfull \hbox (7.55324pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 by lin-ear re-gres-sion, as a func-tion of ef-fect-ive noise s
+trengths. Para-met-ers: 
+ []
+
+
+Overfull \hbox (19.9504pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 of $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 $ 
+\OT1/cmr/m/n/12 vs $\OML/cmm/m/it/12 K$ \OT1/cmr/m/n/12 is com-puted for 10 val
+-ues of $\OML/cmm/m/it/12 K$ \OT1/cmr/m/n/12 ran-ging from 100 to 10000. The 
+ []
+
+
+Overfull \hbox (39.00087pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/m/n/12 last 5 val-ues are used to com-pute $\OML/cmm/m/it/12 $\OT1/c
+mr/m/n/12 . For the LRC model, the $\OML/cmm/m/it/12 x$\OT1/cmr/m/n/12 -axis co
+r-res-ponds 
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+  []\OT1/cmr/bx/n/12 Mean time to extinction is largely independent of initial 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ \OT1/cmr/bx/n/12 starting population\OT1/cmr/m/n/12 . Mean time to extinction,
+ $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 , plotted on a shifted 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ \OT1/cmr/m/n/12 log scale as a function of initial starting population, $\OML/
+cmm/m/it/12 x[]$\OT1/cmr/m/n/12 . Green squares 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ \OT1/cmr/m/n/12 denote the LES model, purple circles denote the LRC model. The
+ mean 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+  []\OT1/cmr/bx/n/12 The LRC model has higher extinction risk than the LES 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ \OT1/cmr/bx/n/12 model for equivalent stationary means. A: \OT1/cmr/m/n/12 Ill
+ustration of the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ \OT1/cmr/m/n/12 mapping. Numerical results for the average population plotted 
+over 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ \OT1/cmr/m/n/12 time in the LRC (purple) and LES (green) models, showing both 
+the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ \OT1/cmr/m/n/12 cases of no extinction (dark solid lines) and extinction (ligh
+t dashed 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ \OT1/cmr/m/n/12 rate and carrying capacity as the LRC model and $\OML/cmm/m/it
+/12 $ \OT1/cmr/m/n/12 is determined 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ \OT1/cmr/m/n/12 inverse growth rate, for LRC (purple circles) and 
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 10--10
+ \OT1/cmr/m/n/12 LES (green squares) models as a function of noise strength, wi
+th $\OML/cmm/m/it/12 [] \OT1/cmr/m/n/12 = 
+ []
+
+
+Overfull \hbox (29.39886pt too wide) in paragraph at lines 11--11
   []\OT1/cmr/bx/n/12 Two bac-terial spe-cies show dif-fer-ent ex-tremes of in v
 ivo ag-greg-a-tion 
  []
 
 
-Overfull \hbox (0.80333pt too wide) in paragraph at lines 6--6
+Overfull \hbox (0.80333pt too wide) in paragraph at lines 11--11
  \OT1/cmr/bx/n/12 phen-o-types. \OT1/cmr/m/n/12 A: Schem-atic of a zebrafish 5 
 days post-fertilization (dpf). 
  []
 
 
-Overfull \hbox (45.80562pt too wide) in paragraph at lines 6--6
+Overfull \hbox (45.80562pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 B: Schem-atic of the lar-val zebrafish in-test-ine with num-be
 rs de-not-ing ap-prox-im-ate 
  []
 
 
-Overfull \hbox (31.17538pt too wide) in paragraph at lines 6--6
+Overfull \hbox (31.17538pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 frac-tion of gut length. C: \OT1/cmr/m/it/12 Vi-brio chol-erae
  \OT1/cmr/m/n/12 ZWU0020 in vivo. Left: a max-imum 
  []
 
 
-Overfull \hbox (29.81273pt too wide) in paragraph at lines 6--6
+Overfull \hbox (29.81273pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 in-tens-ity pro-jec-tion of a three-dimensional im-age of the 
 full gut. Dense, bright 
  []
 
 
-Overfull \hbox (38.13763pt too wide) in paragraph at lines 6--6
+Overfull \hbox (38.13763pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 bac-teria and dim-mer in-test-inal auto-fluor-es-cence are evi
 d-ent. The or-ange dashed 
  []
 
 
-Overfull \hbox (35.51129pt too wide) in paragraph at lines 6--6
+Overfull \hbox (35.51129pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 curve in-dic-ates a coarse out-line of the gut bound-ary. Scal
 e bar: 200 $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 m. Right: 
  []
 
 
-Overfull \hbox (15.22537pt too wide) in paragraph at lines 6--6
+Overfull \hbox (15.22537pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 a single op-tical plane within the an-terior bulb in a fish co
 l-on-ized with 1:100 
  []
 
 
-Overfull \hbox (8.79974pt too wide) in paragraph at lines 6--6
+Overfull \hbox (8.79974pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 green fluor-es-cent pro-tein (GFP): dTo-mato (dTom)-expressing
  \OT1/cmr/m/it/12 Vi-brio\OT1/cmr/m/n/12 , with 
  []
 
 
-Overfull \hbox (23.59198pt too wide) in paragraph at lines 6--6
+Overfull \hbox (23.59198pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 the GFP chan-nel shown to high-light in-di-vidual mi-crobes in
  the dense swarm. 
  []
 
 
-Overfull \hbox (19.20728pt too wide) in paragraph at lines 6--6
+Overfull \hbox (19.20728pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 The or-ange dashed curve in-dic-ates the ap-prox-im-ate con-to
 ur of the in-test-inal 
  []
 
 
-Overfull \hbox (6.37825pt too wide) in paragraph at lines 6--6
+Overfull \hbox (6.37825pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 epi-the-lium. Black ar-row-heads in-dic-ate ex-amples of singl
 e plank-tonic cells. 
  []
 
 
-Overfull \hbox (9.49838pt too wide) in paragraph at lines 6--6
+Overfull \hbox (9.49838pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 Scale bar: 25 $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 m. (See also
  SI Movie 1) D: \OT1/cmr/m/it/12 En-terobac-ter cloacae \OT1/cmr/m/n/12 ZOR0014
  
  []
 
 
-Overfull \hbox (10.06848pt too wide) in paragraph at lines 6--6
+Overfull \hbox (10.06848pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 in vivo, shown as a max-imum in-tens-ity pro-jec-tion of the f
 ull gut (left) and 
  []
 
 
-Overfull \hbox (37.87653pt too wide) in paragraph at lines 6--6
+Overfull \hbox (37.87653pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 a sub-set of the same pro-jec-tion in the an-terior bulb (righ
 t); bac-terial ag-greg-ates 
  []
 
 
-Overfull \hbox (24.03778pt too wide) in paragraph at lines 6--6
+Overfull \hbox (24.03778pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 are evid-ent. The black ar-row-head in-dic-ates an ex-ample of
  a single plank-tonic 
  []
 
 
-Overfull \hbox (14.18094pt too wide) in paragraph at lines 6--6
+Overfull \hbox (14.18094pt too wide) in paragraph at lines 11--11
  \OT1/cmr/m/n/12 cell; the white ar-row-head in-dic-ates an ex-ample of a mul-t
 i-cel-lu-lar ag-greg-ate. 
  []
 
-
-Overfull \hbox (9.83272pt too wide) in paragraph at lines 7--7
+[11]
+Overfull \hbox (9.83272pt too wide) in paragraph at lines 12--12
   []\OT1/cmr/bx/n/12 Low-dose cipro-floxa-cin in-duces \OT1/cmr/bx/it/12 Vi-bri
 o \OT1/cmr/bx/n/12 ag-greg-a-tion and ex-pul-sion 
  []
 
 
-Overfull \hbox (1.03015pt too wide) in paragraph at lines 7--7
+Overfull \hbox (1.03015pt too wide) in paragraph at lines 12--12
  \OT1/cmr/bx/n/12 in vivo. \OT1/cmr/m/n/12 A: Schem-atic of the ex-per-i-mental
  timeline. B: Schem-atic of the 
  []
 
 
-Overfull \hbox (38.9168pt too wide) in paragraph at lines 7--7
+Overfull \hbox (38.9168pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 sampling scheme for plat-ing meas-ure-ments. C: Nor-mal-ized a
 bund-ances (num-ber 
  []
 
 
-Overfull \hbox (10.29071pt too wide) in paragraph at lines 7--7
+Overfull \hbox (10.29071pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 of colony form-ing units (CFUs) scaled by un-treated me-di-ans
 ) of wa-ter and 
  []
 
 
-Overfull \hbox (7.49779pt too wide) in paragraph at lines 7--7
+Overfull \hbox (7.49779pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 gut pop-u-la-tions. $\OML/cmm/m/it/12 N$ \OT1/cmr/m/n/12 val-u
 es left to right: 8, 24, 7, 20, 6, 18, 5, 20. Wa-ter $\OML/cmm/m/it/12 N$ 
  []
 
 
-Overfull \hbox (54.4403pt too wide) in paragraph at lines 7--7
+Overfull \hbox (54.4403pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 val-ues de-note num-ber of flasks; gut $\OML/cmm/m/it/12 N$ \O
 T1/cmr/m/n/12 val-ues de-note num-ber of fish. D: His-to-grams 
  []
 
 
-Overfull \hbox (21.64893pt too wide) in paragraph at lines 7--7
+Overfull \hbox (21.64893pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 of gut CFUs with pooled data from 24 and 48 h treat-ments. Cou
 nts in-dic-ate 
  []
 
 
-Overfull \hbox (13.61934pt too wide) in paragraph at lines 7--7
+Overfull \hbox (13.61934pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 the num-ber of in-di-vidual fish with a given log$[]$ \OT1/cmr
 /m/it/12 Vi-brio \OT1/cmr/m/n/12 CFUs. Dashed lines 
  []
 
 
-Overfull \hbox (5.04088pt too wide) in paragraph at lines 7--7
+Overfull \hbox (5.04088pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 in-dic-ate the mean of each set, show-ing a $\OMS/cmsy/m/n/12 
 $\OT1/cmr/m/n/12 100-fold re-duc-tion in in-test-inal 
  []
 
 
-Overfull \hbox (4.88449pt too wide) in paragraph at lines 7--7
+Overfull \hbox (4.88449pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12 abund-ance in antibiotic-treated fish
 . E: Ensemble-averaged spa-tial 
  []
 
 
-Overfull \hbox (10.5907pt too wide) in paragraph at lines 7--7
+Overfull \hbox (10.5907pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 dis-tri-bu-tions of log-transformed cell dens-ity as a func-ti
 on of dis-tance along 
  []
 
 
-Overfull \hbox (1.08664pt too wide) in paragraph at lines 7--7
+Overfull \hbox (1.08664pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 the gut axis, in-teg-rated over the per-pen-dic-u-lar di-men-s
 ions. F: Max-imum 
  []
 
 
-Overfull \hbox (29.48634pt too wide) in paragraph at lines 7--7
+Overfull \hbox (29.48634pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 in-tens-ity pro-jec-tions of 3D im-ages of un-treated (top) an
 d ciprofloxacin-treated 
  []
 
 
-Overfull \hbox (13.10522pt too wide) in paragraph at lines 7--7
+Overfull \hbox (13.10522pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 (bot-tom) \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12 pop-u-la-ti
 ons. In-sets: Vi-ab-il-ity stain-ing of bac-teria ex-pelled 
  []
 
 
-Overfull \hbox (55.37079pt too wide) in paragraph at lines 7--7
+Overfull \hbox (55.37079pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 from the gut, with green and magenta in-dic-at-ing liv-ing and
  dead cells, re-spect-ively. 
  []
 
 
-Overfull \hbox (36.45917pt too wide) in paragraph at lines 7--7
+Overfull \hbox (36.45917pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 G-H: Dy-nam-ics of in vivo \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m
 /n/12 pop-u-la-tions un-treated (grey lines) and treated 
  []
 
 
-Overfull \hbox (9.6574pt too wide) in paragraph at lines 7--7
+Overfull \hbox (9.6574pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 with 10 ng/ml cipro-floxa-cin (blue lines). G: 1D cen-ter of m
 ass, nor-mal-ized 
  []
 
 
-Overfull \hbox (11.03165pt too wide) in paragraph at lines 7--7
+Overfull \hbox (11.03165pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 to in-test-ine length. H: Total image-derived \OT1/cmr/m/it/12
  Vi-brio \OT1/cmr/m/n/12 abund-ance. In both (G) 
  []
 
 
-Overfull \hbox (0.33386pt too wide) in paragraph at lines 7--7
+Overfull \hbox (0.33386pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 and (H), each curve rep-res-ents a dif-fer-ent zebrafish. Ver-
 tical dot-ted lines 
  []
 
 
-Overfull \hbox (6.81293pt too wide) in paragraph at lines 7--7
+Overfull \hbox (6.81293pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 in-dic-ate the time of drug ad-min-is-tra-tion to the treat-me
 nt co-hort, $\OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m
 /n/12 67$ 
  []
 
-[10]
-Overfull \hbox (62.1574pt too wide) in paragraph at lines 8--8
+
+Overfull \hbox (62.1574pt too wide) in paragraph at lines 13--13
   []\OT1/cmr/bx/n/12 Low-dose cipro-floxa-cin col-lapses \OT1/cmr/bx/it/12 En-t
 erobac-ter \OT1/cmr/bx/n/12 pop-u-la-tions and sup-presses 
  []
 
 
-Overfull \hbox (37.73901pt too wide) in paragraph at lines 8--8
+Overfull \hbox (37.73901pt too wide) in paragraph at lines 13--13
  \OT1/cmr/bx/n/12 small clusters in vivo. \OT1/cmr/m/n/12 A: Nor-mal-ized abund
 -ances (num-ber of colony form-ing 
  []
 
 
-Overfull \hbox (4.80743pt too wide) in paragraph at lines 8--8
+Overfull \hbox (4.80743pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 units (CFUs) scaled by un-treated me-di-ans) of wa-ter and gut
  pop-u-la-tions. 
  []
 
 
-Overfull \hbox (33.93501pt too wide) in paragraph at lines 8--8
+Overfull \hbox (33.93501pt too wide) in paragraph at lines 13--13
  \OML/cmm/m/it/12 N$ \OT1/cmr/m/n/12 val-ues left to right: 4, 20, 4, 20, 4, 19
 , 4, 20. Wa-ter $\OML/cmm/m/it/12 N$ \OT1/cmr/m/n/12 val-ues de-note num-ber 
  []
 
 
-Overfull \hbox (5.96582pt too wide) in paragraph at lines 8--8
+Overfull \hbox (5.96582pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 of flasks; gut $\OML/cmm/m/it/12 N$ \OT1/cmr/m/n/12 val-ues de
 -note num-ber of fish. B: His-to-grams of gut CFUs 
  []
 
 
-Overfull \hbox (16.8573pt too wide) in paragraph at lines 8--8
+Overfull \hbox (16.8573pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 with pooled data from 24 and 48 h treat-ments. Counts in-dic-a
 te the num-ber 
  []
 
 
-Overfull \hbox (27.96153pt too wide) in paragraph at lines 8--8
+Overfull \hbox (27.96153pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 of in-di-vidual fish with a given log$[]$ \OT1/cmr/m/it/12 En-
 terobac-ter \OT1/cmr/m/n/12 CFUs. Dashed lines in-dic-ate 
  []
 
 
-Overfull \hbox (35.10577pt too wide) in paragraph at lines 8--8
+Overfull \hbox (35.10577pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 the mean of each set, show-ing a $\OMS/cmsy/m/n/12 $\OT1/cmr/
 m/n/12 1000-fold re-duc-tion in in-test-inal \OT1/cmr/m/it/12 En-terobac-ter 
  []
 
 
-Overfull \hbox (7.13101pt too wide) in paragraph at lines 8--8
+Overfull \hbox (7.13101pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 abund-ance in antibiotic-treated fish. C: Total num-ber of bac
 -terial clusters 
  []
 
 
-Overfull \hbox (55.15831pt too wide) in paragraph at lines 8--8
+Overfull \hbox (55.15831pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 in the in-test-ine, quan-ti-fied from 3D im-ages (Ma-ter-i-als
  and Meth-ods). D: Max-imum 
  []
 
 
-Overfull \hbox (29.48634pt too wide) in paragraph at lines 8--8
+Overfull \hbox (29.48634pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 in-tens-ity pro-jec-tions of 3D im-ages of un-treated (top) an
 d ciprofloxacin-treated 
  []
 
 
-Overfull \hbox (0.35742pt too wide) in paragraph at lines 8--8
+Overfull \hbox (0.35742pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 (bot-tom) \OT1/cmr/m/it/12 En-terobac-ter \OT1/cmr/m/n/12 pop-
 u-la-tions. In-sets: Vi-ab-il-ity stain-ing of bac-teria 
  []
 
 
-Overfull \hbox (5.95602pt too wide) in paragraph at lines 8--8
+Overfull \hbox (5.95602pt too wide) in paragraph at lines 13--13
  \OT1/cmr/m/n/12 ex-pelled from the gut, with green and magenta in-dic-at-ing l
 iv-ing and dead 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
   []\OT1/cmr/bx/n/12 Small bacterial clusters are required for recovery after l
 arge 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
  \OT1/cmr/bx/n/12 expulsion events. \OT1/cmr/m/n/12 A: Maximum intensity projec
 tions 
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 9--9
+Underfull \hbox (badness 3635) in paragraph at lines 14--14
  \OT1/cmr/m/n/12 start of imaging) and after (bottom, $\OML/cmm/m/it/12 t \OT1/
 cmr/m/n/12 = 3$ hours) an expulsion event 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
  \OT1/cmr/m/n/12 (See also SI Movie 5). Scale bar = 200 $\OML/cmm/m/it/12 $\OT
 1/cmr/m/n/12 m. B: Schematic of a kinetic 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
  \OT1/cmr/m/n/12 model of bacterial cluster dynamics, illustrating its four con
 stituent 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
  \OT1/cmr/m/n/12 processes. C: Image-derived time-series of \OT1/cmr/m/it/12 En
 terobacter \OT1/cmr/m/n/12 abundance in 
  []
 
-
-Overfull \hbox (50.49197pt too wide) in paragraph at lines 10--10
+[12]
+Overfull \hbox (50.49197pt too wide) in paragraph at lines 15--15
   []\OT1/cmr/bx/n/12 A stochastic kin-etic model pre-dicts bac-terial cluster s
 izes and gen-er-ates 
  []
 
 
-Overfull \hbox (15.49031pt too wide) in paragraph at lines 10--10
+Overfull \hbox (15.49031pt too wide) in paragraph at lines 15--15
  \OT1/cmr/bx/n/12 a phase dia-gram for in vivo abund-ance. \OT1/cmr/m/n/12 A: T
 he dis-tri-bu-tion of image- 
  []
 
 
-Overfull \hbox (1.6713pt too wide) in paragraph at lines 10--10
+Overfull \hbox (1.6713pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 derived \OT1/cmr/m/it/12 En-terobac-ter \OT1/cmr/m/n/12 cluste
 r sizes (grey circles) along with the pre-dic-tion 
  []
 
 
-Overfull \hbox (4.84631pt too wide) in paragraph at lines 10--10
+Overfull \hbox (4.84631pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 of our stochastic model (purple line). There are no free para-
 met-ers in the 
  []
 
 
-Overfull \hbox (26.77942pt too wide) in paragraph at lines 10--10
+Overfull \hbox (26.77942pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 fit; val-ues were fixed by abund-ance, growth, and ex-pul-sion
  rate meas-ure-ments 
  []
 
 
-Overfull \hbox (33.82935pt too wide) in paragraph at lines 10--10
+Overfull \hbox (33.82935pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 are stand-ard de-vi-ations across hosts. Shaded con-fid-ence i
 n-ter-vals for the model 
  []
 
 
-Overfull \hbox (53.21248pt too wide) in paragraph at lines 10--10
+Overfull \hbox (53.21248pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 pre-dic-tion are bounds from para-meter un-cer-tain-ties. In-s
 et: The same ex-per-i-mental 
  []
 
 
-Overfull \hbox (23.45029pt too wide) in paragraph at lines 10--10
+Overfull \hbox (23.45029pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 data and model plot-ted without bin-ning as a re-verse cu-mu-l
 at-ive dis-tri-bu-tion. 
  []
 
 
-Overfull \hbox (17.68199pt too wide) in paragraph at lines 10--10
+Overfull \hbox (17.68199pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 B: Phase dia-gram of the log-transformed abund-ance, $\OMS/cms
 y/m/n/12 h[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N \OT1/cmr/m/n/12 + 1)\OMS/cmsy
 /m/n/12 i$\OT1/cmr/m/n/12 , show-ing 
  []
 
 
-Overfull \hbox (40.06123pt too wide) in paragraph at lines 10--10
+Overfull \hbox (40.06123pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 the ex-tinc-tion trans-ition (white dashed line). From best fi
 t para-meter es-tim-ates, 
  []
 
 
-Overfull \hbox (8.7865pt too wide) in paragraph at lines 10--10
+Overfull \hbox (8.7865pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 the in vivo state of un-treated \OT1/cmr/m/it/12 En-terobac-te
 r \OT1/cmr/m/n/12 is over-laid as a grey circle, and 
  []
 
 
-Overfull \hbox (17.20724pt too wide) in paragraph at lines 10--10
+Overfull \hbox (17.20724pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 25 ng/ml ciprofloxacin-treated \OT1/cmr/m/it/12 En-terobac-ter
  \OT1/cmr/m/n/12 as an or-ange circle; both circles 
  []
 
 
-Overfull \hbox (15.9163pt too wide) in paragraph at lines 10--10
+Overfull \hbox (15.9163pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 are marked with ``e''. Un-treated \OT1/cmr/m/it/12 Vi-brio \OT
 1/cmr/m/n/12 is loc-ated off the scale, in-dic-ated by 
  []
 
 
-Overfull \hbox (13.30939pt too wide) in paragraph at lines 10--10
+Overfull \hbox (13.30939pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 the ar-row, 10 ng/ml cipro-floxa-cin treated \OT1/cmr/m/it/12 
 Vi-brio \OT1/cmr/m/n/12 is over-laid as a cyan circle 
  []
 
 
-Overfull \hbox (6.6094pt too wide) in paragraph at lines 10--10
+Overfull \hbox (6.6094pt too wide) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 marked with ``v''. The doses for \OT1/cmr/m/it/12 En-terobac-t
 er \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12 were es-tab-lis
 hed 
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 10--10
+Underfull \hbox (badness 4899) in paragraph at lines 15--15
  \OT1/cmr/m/n/12 to be ap-prox-im-ately equi-val-ent in vitro. Para-met-ers: $\
 OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 11$ hr$[
 ]$, 
  []
 
-[11])
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [12]
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
  
  []
@@ -1799,14 +2044,18 @@ d in
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [13
+ [14
 
 ]
 \openout2 = `chapter1.aux'.
 
  (chapter1.tex
 [Introduction]
-<./figures/ducks_logo.png, id=82, 401.5pt x 301.125pt>
+
+Package natbib Warning: Citation `interesting_article' on page 1 undefined on i
+nput line 4.
+
+<./figures/ducks_logo.png, id=85, 401.5pt x 301.125pt>
 File: ./figures/ducks_logo.png Graphic file (type png)
 <use ./figures/ducks_logo.png>
 Package pdftex.def Info: ./figures/ducks_logo.png  used on input line 8.
@@ -1857,7 +2106,7 @@ ribution
  []
 
 [12] [13]
-<./figures/cohesion/Fig1-eps-converted-to.pdf, id=124, 481.8pt x 300.12125pt>
+<./figures/cohesion/Fig1-eps-converted-to.pdf, id=127, 481.8pt x 300.12125pt>
 File: ./figures/cohesion/Fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/cohesion/Fig1-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/cohesion/Fig1-eps-converted-to.pdf  used on 
@@ -1965,7 +2214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 /12 ZOR0014 typ-ic-ally con-sist of small num-bers of large
  []
 
-<./figures/cohesion/Fig2-eps-converted-to.pdf, id=125, 234.8775pt x 559.08875pt
+<./figures/cohesion/Fig2-eps-converted-to.pdf, id=128, 234.8775pt x 559.08875pt
 >
 File: ./figures/cohesion/Fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/cohesion/Fig2-eps-converted-to.pdf>
@@ -2017,7 +2266,7 @@ es. Trend-lines were
 
 LaTeX Warning: Float too large for page by 22.0826pt on input line 150.
 
-<./figures/cohesion/Fig3-eps-converted-to.pdf, id=126, 234.8775pt x 311.1625pt>
+<./figures/cohesion/Fig3-eps-converted-to.pdf, id=129, 234.8775pt x 311.1625pt>
 
 File: ./figures/cohesion/Fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/cohesion/Fig3-eps-converted-to.pdf>
@@ -2122,21 +2371,17 @@ Package epstopdf Info: Source file: <./figures/math/figure1.eps>
 (epstopdf)                    size: 951020 bytes
 (epstopdf)             Output file: <./figures/math/figure1-eps-converted-to.pd
 f>
+(epstopdf)                    date: 2020-02-20 13:52:05
+(epstopdf)                    size: 238220 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/math/figure1-eps-
 converted-to.pdf ./figures/math/figure1.eps>
 (epstopdf)             \includegraphics on input line 585.
-runsystem(epstopdf --outfile=./figures/math/figure1-eps-converted-to.pdf ./figu
-res/math/figure1.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <./figures/math/figure1-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-02-20 13:52:05
-(epstopdf)                    size: 238220 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/math/figure1-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/math/figure1-eps-converted-to.pdf, id=280, 597.23125pt x 240.9pt>
+<./figures/math/figure1-eps-converted-to.pdf, id=283, 597.23125pt x 240.9pt>
 File: ./figures/math/figure1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/math/figure1-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/math/figure1-eps-converted-to.pdf  used on i
@@ -2153,21 +2398,17 @@ Package epstopdf Info: Source file: <./figures/math/figure2.eps>
 (epstopdf)                    size: 463563 bytes
 (epstopdf)             Output file: <./figures/math/figure2-eps-converted-to.pd
 f>
+(epstopdf)                    date: 2020-02-20 13:52:10
+(epstopdf)                    size: 285474 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/math/figure2-eps-
 converted-to.pdf ./figures/math/figure2.eps>
 (epstopdf)             \includegraphics on input line 593.
-runsystem(epstopdf --outfile=./figures/math/figure2-eps-converted-to.pdf ./figu
-res/math/figure2.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <./figures/math/figure2-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-02-20 13:52:10
-(epstopdf)                    size: 285474 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/math/figure2-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/math/figure2-eps-converted-to.pdf, id=281, 597.23125pt x 240.9pt>
+<./figures/math/figure2-eps-converted-to.pdf, id=284, 597.23125pt x 240.9pt>
 File: ./figures/math/figure2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/math/figure2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/math/figure2-eps-converted-to.pdf  used on i
@@ -2220,21 +2461,17 @@ Package epstopdf Info: Source file: <./figures/math/figure3.eps>
 (epstopdf)                    size: 95917 bytes
 (epstopdf)             Output file: <./figures/math/figure3-eps-converted-to.pd
 f>
+(epstopdf)                    date: 2020-02-20 13:52:11
+(epstopdf)                    size: 88651 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/math/figure3-eps-
 converted-to.pdf ./figures/math/figure3.eps>
 (epstopdf)             \includegraphics on input line 600.
-runsystem(epstopdf --outfile=./figures/math/figure3-eps-converted-to.pdf ./figu
-res/math/figure3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <./figures/math/figure3-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2020-02-20 13:52:11
-(epstopdf)                    size: 88651 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/math/figure3-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/math/figure3-eps-converted-to.pdf, id=282, 469.755pt x 387.4475pt>
+<./figures/math/figure3-eps-converted-to.pdf, id=285, 469.755pt x 387.4475pt>
 File: ./figures/math/figure3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/math/figure3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/math/figure3-eps-converted-to.pdf  used on i
@@ -2338,21 +2575,17 @@ Package epstopdf Info: Source file: <./figures/math/figureS1.eps>
 (epstopdf)                    size: 34002 bytes
 (epstopdf)             Output file: <./figures/math/figureS1-eps-converted-to.p
 df>
+(epstopdf)                    date: 2020-02-20 13:52:13
+(epstopdf)                    size: 12562 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/math/figureS1-eps
 -converted-to.pdf ./figures/math/figureS1.eps>
 (epstopdf)             \includegraphics on input line 609.
-runsystem(epstopdf --outfile=./figures/math/figureS1-eps-converted-to.pdf ./fig
-ures/math/figureS1.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <./figures/math/figureS1-eps-converted-to.p
-df>
-(epstopdf)                    date: 2020-02-20 13:52:13
-(epstopdf)                    size: 12562 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/math/figureS1-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/math/figureS1-eps-converted-to.pdf, id=283, 240.9pt x 201.75375pt>
+<./figures/math/figureS1-eps-converted-to.pdf, id=286, 240.9pt x 201.75375pt>
 File: ./figures/math/figureS1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/math/figureS1-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/math/figureS1-eps-converted-to.pdf  used on 
@@ -2396,21 +2629,17 @@ Package epstopdf Info: Source file: <./figures/math/figureS2.eps>
 (epstopdf)                    size: 792578 bytes
 (epstopdf)             Output file: <./figures/math/figureS2-eps-converted-to.p
 df>
+(epstopdf)                    date: 2020-02-20 13:52:20
+(epstopdf)                    size: 440899 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/math/figureS2-eps
 -converted-to.pdf ./figures/math/figureS2.eps>
 (epstopdf)             \includegraphics on input line 617.
-runsystem(epstopdf --outfile=./figures/math/figureS2-eps-converted-to.pdf ./fig
-ures/math/figureS2.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <./figures/math/figureS2-eps-converted-to.p
-df>
-(epstopdf)                    date: 2020-02-20 13:52:20
-(epstopdf)                    size: 440899 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/math/figureS2-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/math/figureS2-eps-converted-to.pdf, id=284, 602.25pt x 260.975pt>
+<./figures/math/figureS2-eps-converted-to.pdf, id=287, 602.25pt x 260.975pt>
 File: ./figures/math/figureS2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/math/figureS2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/math/figureS2-eps-converted-to.pdf  used on 
@@ -2484,110 +2713,110 @@ Package epstopdf Info: Source file: <./figures/abx/fig1.eps>
 (epstopdf)                    size: 831379 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/abx/fig1-eps-conv
 erted-to.pdf ./figures/abx/fig1.eps>
-(epstopdf)             \includegraphics on input line 45.
+(epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/abx/fig1-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/abx/fig1-eps-converted-to.pdf, id=370, 327.2225pt x 184.69pt>
+<./figures/abx/fig1-eps-converted-to.pdf, id=373, 327.2225pt x 184.69pt>
 File: ./figures/abx/fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/abx/fig1-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/abx/fig1-eps-converted-to.pdf  used on input
- line 45.
+ line 44.
 (pdftex.def)             Requested size: 343.28249pt x 193.75548pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 []\OT1/cmr/m/n/12 FIGURE S2. |\OT1/cmr/bx/n/12 Two bac-terial spe-cies show dif
 -fer-ent ex-tremes of in vivo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/bx/n/12 ag-greg-a-tion phen-o-types. \OT1/cmr/m/n/12 A: Schem-atic of 
 a zebrafish 5 days post-fertilization
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 (dpf). B: Schem-atic of the lar-val zebrafish in-test-ine with 
 num-bers de-not-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 ap-prox-im-ate frac-tion of gut length. C: \OT1/cmr/m/it/12 Vi-
 brio chol-erae \OT1/cmr/m/n/12 ZWU0020 in vivo. Left: a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 max-imum in-tens-ity pro-jec-tion of a three-dimensional im-age
  of the full gut. Dense,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 bright bac-teria and dim-mer in-test-inal auto-fluor-es-cence a
 re evid-ent. The or-ange
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 dashed curve in-dic-ates a coarse out-line of the gut bound-ary
 . Scale bar: 200 $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 m.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 Right: a single op-tical plane within the an-terior bulb in a f
 ish col-on-ized with 1:100
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 green fluor-es-cent pro-tein (GFP): dTo-mato (dTom)-expressing 
 \OT1/cmr/m/it/12 Vi-brio\OT1/cmr/m/n/12 , with the GFP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 chan-nel shown to high-light in-di-vidual mi-crobes in the dens
 e swarm. The or-ange
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 dashed curve in-dic-ates the ap-prox-im-ate con-tour of the in-
 test-inal epi-the-lium. Black
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 ar-row-heads in-dic-ate ex-amples of single plank-tonic cells. 
 Scale bar: 25 $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 m. (See
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 also SI Movie 1) D: \OT1/cmr/m/it/12 En-terobac-ter cloacae \OT
 1/cmr/m/n/12 ZOR0014 in vivo, shown as a max-imum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 in-tens-ity pro-jec-tion of the full gut (left) and a sub-set o
 f the same pro-jec-tion in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 the an-terior bulb (right); bac-terial ag-greg-ates are evid-en
 t. The black ar-row-head
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \OT1/cmr/m/n/12 in-dic-ates an ex-ample of a single plank-tonic cell; the white
  ar-row-head in-dic-ates an
  []
@@ -2601,135 +2830,135 @@ Package epstopdf Info: Source file: <./figures/abx/fig2.eps>
 (epstopdf)                    size: 1022246 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/abx/fig2-eps-conv
 erted-to.pdf ./figures/abx/fig2.eps>
-(epstopdf)             \includegraphics on input line 64.
+(epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/abx/fig2-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/abx/fig2-eps-converted-to.pdf, id=395, 342.27875pt x 369.38pt>
+<./figures/abx/fig2-eps-converted-to.pdf, id=398, 342.27875pt x 369.38pt>
 File: ./figures/abx/fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/abx/fig2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/abx/fig2-eps-converted-to.pdf  used on input
- line 64.
+ line 63.
 (pdftex.def)             Requested size: 343.28249pt x 370.48943pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []\OT1/cmr/m/n/12 FIGURE S2. |\OT1/cmr/bx/n/12 Low-dose cipro-floxa-cin in-duce
 s \OT1/cmr/bx/it/12 Vi-brio \OT1/cmr/bx/n/12 ag-greg-a-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/bx/n/12 ex-pul-sion in vivo. \OT1/cmr/m/n/12 A: Schem-atic of the ex-p
 er-i-mental timeline. B: Schem-atic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 of the sampling scheme for plat-ing meas-ure-ments. C: Nor-mal-
 ized abund-ances
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 (num-ber of colony form-ing units (CFUs) scaled by un-treated m
 e-di-ans) of wa-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 and gut pop-u-la-tions. $\OML/cmm/m/it/12 N$ \OT1/cmr/m/n/12 va
 l-ues left to right: 8, 24, 7, 20, 6, 18, 5, 20. Wa-ter $\OML/cmm/m/it/12 N$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 val-ues de-note num-ber of flasks; gut $\OML/cmm/m/it/12 N$ \OT
 1/cmr/m/n/12 val-ues de-note num-ber of fish. D: His-to-grams
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 of gut CFUs with pooled data from 24 and 48 h treat-ments. Coun
 ts in-dic-ate the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 num-ber of in-di-vidual fish with a given log$[]$ \OT1/cmr/m/it
 /12 Vi-brio \OT1/cmr/m/n/12 CFUs. Dashed lines in-dic-ate the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 mean of each set, show-ing a $\OMS/cmsy/m/n/12 $\OT1/cmr/m/n/1
 2 100-fold re-duc-tion in in-test-inal \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12
  abund-ance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 in antibiotic-treated fish. E: Ensemble-averaged spa-tial dis-t
 ri-bu-tions of log-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 transformed cell dens-ity as a func-tion of dis-tance along the
  gut axis, in-teg-rated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 over the per-pen-dic-u-lar di-men-sions. F: Max-imum in-tens-it
 y pro-jec-tions of 3D im-ages
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 of un-treated (top) and ciprofloxacin-treated (bot-tom) \OT1/cm
 r/m/it/12 Vi-brio \OT1/cmr/m/n/12 pop-u-la-tions. In-sets:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 Vi-ab-il-ity stain-ing of bac-teria ex-pelled from the gut, wit
 h green and magenta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 in-dic-at-ing liv-ing and dead cells, re-spect-ively. G-H: Dy-n
 am-ics of in vivo \OT1/cmr/m/it/12 Vi-brio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 pop-u-la-tions un-treated (grey lines) and treated with 10 ng/m
 l cipro-floxa-cin (blue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 lines). G: 1D cen-ter of mass, nor-mal-ized to in-test-ine leng
 th. H: Total image-derived
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12 abund-ance. In both (G) and (H), each 
 curve rep-res-ents a dif-fer-ent zebrafish.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \OT1/cmr/m/n/12 Ver-tical dot-ted lines in-dic-ate the time of drug ad-min-is-t
 ra-tion to the treat-ment
  []
 
 
-LaTeX Warning: Float too large for page by 50.48941pt on input line 66.
+LaTeX Warning: Float too large for page by 50.48941pt on input line 65.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2743,87 +2972,87 @@ Package epstopdf Info: Source file: <./figures/abx/fig3.eps>
 (epstopdf)                    size: 807537 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/abx/fig3-eps-conv
 erted-to.pdf ./figures/abx/fig3.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/abx/fig3-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/abx/fig3-eps-converted-to.pdf, id=408, 319.1925pt x 304.13625pt>
+<./figures/abx/fig3-eps-converted-to.pdf, id=411, 319.1925pt x 304.13625pt>
 File: ./figures/abx/fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/abx/fig3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/abx/fig3-eps-converted-to.pdf  used on input
- line 92.
+ line 91.
 (pdftex.def)             Requested size: 343.28249pt x 327.09323pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []\OT1/cmr/m/n/12 FIGURE S2. |\OT1/cmr/bx/n/12 Low-dose cipro-floxa-cin col-lap
 ses \OT1/cmr/bx/it/12 En-terobac-ter \OT1/cmr/bx/n/12 pop-u-la-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/bx/n/12 and sup-presses small clusters in vivo. \OT1/cmr/m/n/12 A: Nor
 -mal-ized abund-ances (num-ber
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 of colony form-ing units (CFUs) scaled by un-treated me-di-ans)
  of wa-ter and gut
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 pop-u-la-tions. $\OML/cmm/m/it/12 N$ \OT1/cmr/m/n/12 val-ues le
 ft to right: 4, 20, 4, 20, 4, 19, 4, 20. Wa-ter $\OML/cmm/m/it/12 N$ \OT1/cmr/m
 /n/12 val-ues
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 de-note num-ber of flasks; gut $\OML/cmm/m/it/12 N$ \OT1/cmr/m/
 n/12 val-ues de-note num-ber of fish. B: His-to-grams of gut
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 CFUs with pooled data from 24 and 48 h treat-ments. Counts in-d
 ic-ate the num-ber
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 of in-di-vidual fish with a given log$[]$ \OT1/cmr/m/it/12 En-t
 erobac-ter \OT1/cmr/m/n/12 CFUs. Dashed lines in-dic-ate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 the mean of each set, show-ing a $\OMS/cmsy/m/n/12 $\OT1/cmr/m
 /n/12 1000-fold re-duc-tion in in-test-inal \OT1/cmr/m/it/12 En-terobac-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 abund-ance in antibiotic-treated fish. C: Total num-ber of bac-
 terial clusters in the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 in-test-ine, quan-ti-fied from 3D im-ages (Ma-ter-i-als and Met
 h-ods). D: Max-imum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 in-tens-ity pro-jec-tions of 3D im-ages of un-treated (top) and
  ciprofloxacin-treated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 (bot-tom) \OT1/cmr/m/it/12 En-terobac-ter \OT1/cmr/m/n/12 pop-u
 -la-tions. In-sets: Vi-ab-il-ity stain-ing of bac-teria ex-pelled
  []
@@ -2840,44 +3069,44 @@ Package epstopdf Info: Source file: <./figures/abx/fig4.eps>
 (epstopdf)                    size: 1111684 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/abx/fig4-eps-conv
 erted-to.pdf ./figures/abx/fig4.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/abx/fig4-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/abx/fig4-eps-converted-to.pdf, id=422, 333.245pt x 295.1025pt>
+<./figures/abx/fig4-eps-converted-to.pdf, id=425, 333.245pt x 295.1025pt>
 File: ./figures/abx/fig4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/abx/fig4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/abx/fig4-eps-converted-to.pdf  used on input
- line 119.
+ line 118.
 (pdftex.def)             Requested size: 343.28249pt x 304.01299pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []\OT1/cmr/m/n/12 FIGURE S2. |\OT1/cmr/bx/n/12 Small bac-terial clusters are re
 -quired for re-cov-ery after large
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/cmr/bx/n/12 ex-pul-sion events. \OT1/cmr/m/n/12 A: Max-imum in-tens-ity pr
 o-jec-tions of un-treated \OT1/cmr/m/it/12 En-terobac-ter
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 120--120
+Underfull \hbox (badness 7291) in paragraph at lines 119--119
 \OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = 3$ hours) an ex-pul-sion event (See also S
 I Movie 5). Scale bar = 200 $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 m. B:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/cmr/m/n/12 Schem-atic of a kin-etic model of bac-terial cluster dy-nam-ics
 , il-lus-trat-ing its four
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/cmr/m/n/12 con-stitu-ent pro-cesses. C: Image-derived time-series of \OT1/
 cmr/m/it/12 En-terobac-ter \OT1/cmr/m/n/12 abund-ance in
  []
@@ -2894,50 +3123,50 @@ Package epstopdf Info: Source file: <./figures/abx/fig5.eps>
 (epstopdf)                    size: 43464 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/abx/fig5-eps-conv
 erted-to.pdf ./figures/abx/fig5.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/abx/fig5-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./figures/abx/fig5-eps-converted-to.pdf, id=432, 342.27875pt x 151.56625pt>
+<./figures/abx/fig5-eps-converted-to.pdf, id=436, 342.27875pt x 151.56625pt>
 File: ./figures/abx/fig5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/abx/fig5-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/abx/fig5-eps-converted-to.pdf  used on input
- line 136.
+ line 135.
 (pdftex.def)             Requested size: 343.28249pt x 152.02147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []\OT1/cmr/m/n/12 FIGURE S2. |\OT1/cmr/bx/n/12 A stochastic kin-etic model pre-
 dicts bac-terial cluster sizes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/bx/n/12 and gen-er-ates a phase dia-gram for in vivo abund-ance. \OT1/
 cmr/m/n/12 A: The dis-tri-bu-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 of image-derived \OT1/cmr/m/it/12 En-terobac-ter \OT1/cmr/m/n/1
 2 cluster sizes (grey circles) along with the pre-dic-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 of our stochastic model (purple line). There are no free para-m
 et-ers in the fit; val-ues
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 were fixed by abund-ance, growth, and ex-pul-sion rate meas-ure
 -ments in-de-pend-ent
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 137--137
+Underfull \hbox (badness 3930) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 of cluster size. Para-met-ers: $\OML/cmm/m/it/12 r \OT1/cmr/m/n
 /12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 27$ hr$[]$, $\OML/cmm/m/it/12  \OT1/c
 mr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 11$ hr$[]$, $\OML/cmm/m/it/12  
@@ -2945,87 +3174,87 @@ mr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 11$ hr$[]$, $\OML/cmm/m/it/12 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OML/cmm/m/it/12  \OT1/cmr/m/n/12 = 10[]$ hr$[]$, $\OML/cmm/m/it/12 K \OT1/cmr
 /m/n/12 = 10[]$. Er-ror bars on ex-per-i-mental data are stand-ard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 de-vi-ations across hosts. Shaded con-fid-ence in-ter-vals for 
 the model pre-dic-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 are bounds from para-meter un-cer-tain-ties. In-set: The same e
 x-per-i-mental data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 and model plot-ted without bin-ning as a re-verse cu-mu-lat-ive
  dis-tri-bu-tion. B:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 Phase dia-gram of the log-transformed abund-ance, $\OMS/cmsy/m/
 n/12 h[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N \OT1/cmr/m/n/12 + 1)\OMS/cmsy/m/n
 /12 i$\OT1/cmr/m/n/12 , show-ing the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 ex-tinc-tion trans-ition (white dashed line). From best fit par
 a-meter es-tim-ates, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 in vivo state of un-treated \OT1/cmr/m/it/12 En-terobac-ter \OT
 1/cmr/m/n/12 is over-laid as a grey circle, and 25 ng/ml
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 ciprofloxacin-treated \OT1/cmr/m/it/12 En-terobac-ter \OT1/cmr/
 m/n/12 as an or-ange circle; both circles are marked with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 ``e''. Un-treated \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12 is l
 oc-ated off the scale, in-dic-ated by the ar-row, 10 ng/ml
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 cipro-floxa-cin treated \OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/1
 2 is over-laid as a cyan circle marked with ``v''. The doses
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \OT1/cmr/m/n/12 for \OT1/cmr/m/it/12 En-terobac-ter \OT1/cmr/m/n/12 and \OT1/cm
 r/m/it/12 Vi-brio \OT1/cmr/m/n/12 were es-tab-lished to be ap-prox-im-ately equ
 i-val-ent in
  []
 
 [72] [73] [74] [75] [76]
-Underfull \hbox (badness 1348) in paragraph at lines 171--172
+Underfull \hbox (badness 1348) in paragraph at lines 170--171
 []\OT1/cmr/m/n/12 Wild-type (AB$\OMS/cmsy/m/n/12 $\OT1/cmr/m/n/12 TU strain) z
 ebrafish were de-rived ger-mfree (GF) 
  []
 
 [77] [78]
-Underfull \hbox (badness 1142) in paragraph at lines 185--186
+Underfull \hbox (badness 1142) in paragraph at lines 184--185
 []\OT1/cmr/m/n/12 Germ-free lar-val zebrafish were col-on-ized with wild type \
 OT1/cmr/m/it/12 Vi-brio \OT1/cmr/m/n/12 or 
  []
 
 [79]
-Underfull \hbox (badness 1360) in paragraph at lines 201--202
+Underfull \hbox (badness 1360) in paragraph at lines 200--201
 \OT1/cmr/m/n/12 Mi-cro-bi-ome Ideas Chal-lenge, a pro-ject led by the Amer-ican
  So-ci-ety for 
  []
@@ -3039,36 +3268,75 @@ Underfull \hbox (badness 1360) in paragraph at lines 201--202
 
 
 (chapter5.tex
-[Motaxis paper here]
-File: ./figures/ducks_logo.png Graphic file (type png)
-<use ./figures/ducks_logo.png>
-Package pdftex.def Info: ./figures/ducks_logo.png  used on input line 8.
-(pdftex.def)             Requested size: 433.62pt x 325.23772pt.
-) [90
+[Swimming motility of a gut bacterial symbiont promotes resistance to intestina
+l expulsion and enhances inflammation]
+[90
 
 
+
+]
+
+Package natbib Warning: Citation `Chow2011' on page 91 undefined on input line 
+10.
+
+
+Package natbib Warning: Citation `Hajishengallis2016' on page 91 undefined on i
+nput line 10.
+
+[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
+[105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116]
+[117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
+Underfull \hbox (badness 1270) in paragraph at lines 164--165
+\OT1/cmr/m/n/12 [75]. Briefly, fer-til-ized eggs from adult mat-ing pairs were 
+har-ves-ted and 
+ []
+
+[127] [128] [129] [130] [131] [132] [133]
+Underfull \hbox (badness 1168) in paragraph at lines 203--205
+[]\OT1/cmr/m/n/12 S1 Fig. Motil-ity and chemo-taxis mutant con-struc-tion and i
+n vitro 
+ []
+
+[134] [135] [136] [137] [138] [139] [140] [141] [142] [143] (main.bbl [144]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \end{thebibliography}
+                         
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)) [145
 
 ]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
 [Conclusion]
+
+Package natbib Warning: Citation `interesting_article' on page 146 undefined on
+ input line 4.
+
 File: ./figures/ducks_logo.png Graphic file (type png)
 <use ./figures/ducks_logo.png>
 Package pdftex.def Info: ./figures/ducks_logo.png  used on input line 8.
 (pdftex.def)             Requested size: 433.62pt x 325.23772pt.
-) [91
+) [146
 
 
 
-] (main.bbl)
+]
+
+Package natbib Warning: There were undefined citations.
+
 
 Package natbib Warning: There were multiply defined citations.
 
-[92
-
-
-] (main.aux (chapter1.aux) (chapter2.aux
+(main.aux (chapter1.aux) (chapter2.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -3176,10 +3444,9 @@ chapter4.tex
 ./figures/abx/fig4-eps-converted-to.pdf
 ./figures/abx/fig5-eps-converted-to.pdf
 chapter5.tex
-./figures/ducks_logo.png
+    main.bbl
 chapter6.tex
 ./figures/ducks_logo.png
-    main.bbl
  ***********
 
 
@@ -3187,13 +3454,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17382 strings out of 492452
- 337531 string characters out of 3119129
- 424575 words of memory out of 3000000
- 21285 multiletter control sequences out of 15000+200000
+ 17381 strings out of 492452
+ 337488 string characters out of 3119129
+ 424605 words of memory out of 3000000
+ 21284 multiletter control sequences out of 15000+200000
  9596 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,16n,87p,2259b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,16n,87p,3473b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKT
@@ -3216,9 +3483,9 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Us
 ers/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb><C:/Users/Brandon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (105 pages, 5860791 bytes).
+Output written on main.pdf (160 pages, 5969132 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
+ 777 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

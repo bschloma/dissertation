@@ -3,15 +3,33 @@ A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: chapter3.aux
-Illegal, another \bibstyle command---line 106 of file chapter3.aux
+Illegal, another \bibstyle command---line 107 of file chapter3.aux
  : \bibstyle
  :          {unsrt}
 I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 10 of file main.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+I couldn't open database file C:/Users/Brandon/Documents/Gutz/PaperWriting/dissertation/travis_refs.bib.bib
+---line 43 of file chapter5.aux
+ : \bibdata{C:/Users/Brandon/Documents/Gutz/PaperWriting/dissertation/travis_refs.bib
+ :                                                                                   }
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 45 of file chapter5.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chapter6.aux
+Illegal, another \bibstyle command---line 17 of file main.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
-Database file #1: mybib.bib
+Illegal, another \bibdata command---line 18 of file main.aux
+ : \bibdata
+ :         {mybib}
+I'm skipping whatever remains of this command
+I found no database files---while reading file main.aux
+Warning--I didn't find a database entry for "lande1993risks"
+Warning--I didn't find a database entry for "interesting_article"
 Warning--I didn't find a database entry for "Cox2014"
 Warning--I didn't find a database entry for "Kundu2017"
 Warning--I didn't find a database entry for "McKenney2015"
@@ -59,7 +77,6 @@ Warning--I didn't find a database entry for "relmanABX_2011"
 Warning--I didn't find a database entry for "wilesPLOS2016"
 Warning--I didn't find a database entry for "hanson1981"
 Warning--I didn't find a database entry for "bover1978moment"
-Warning--I didn't find a database entry for "lande1993risks"
 Warning--I didn't find a database entry for "jacod2013limit"
 Warning--I didn't find a database entry for "peskin1995quantum"
 Warning--I didn't find a database entry for "jona1975renormalization"
@@ -67,9 +84,43 @@ Warning--I didn't find a database entry for "hansonBook"
 Warning--I didn't find a database entry for "broca2004cumulant"
 Warning--I didn't find a database entry for "bao2011competitive"
 Warning--I didn't find a database entry for "shaffer1987minimum"
+Warning--I didn't find a database entry for "hill2016conserved"
 Warning--I didn't find a database entry for "hanson1998optimal"
 Warning--I didn't find a database entry for "visco2010switching"
 Warning--I didn't find a database entry for "mil1975approximate"
 Warning--I didn't find a database entry for "engen2000"
 Warning--I didn't find a database entry for "linetsky2010constant"
-(There were 2 error messages)
+Warning--I didn't find a database entry for "dethlefsen2011incomplete"
+Warning--I didn't find a database entry for "cho2012antibiotics"
+Warning--I didn't find a database entry for "schulfer2019impact"
+Warning--I didn't find a database entry for "gaulke2016triclosan"
+Warning--I didn't find a database entry for "andersson2014microbiological"
+Warning--I didn't find a database entry for "national2018environmental"
+Warning--I didn't find a database entry for "walters2003contributions"
+Warning--I didn't find a database entry for "fux2005survival"
+Warning--I didn't find a database entry for "korem2015growth"
+Warning--I didn't find a database entry for "schlomann2018bacterial"
+Warning--I didn't find a database entry for "welch2017spatial"
+Warning--I didn't find a database entry for "cremer2017effect"
+Warning--I didn't find a database entry for "girardi2011biodegradation"
+Warning--I didn't find a database entry for "goneau2015subinhibitory"
+Warning--I didn't find a database entry for "rennekamp201515"
+Warning--I didn't find a database entry for "yoganantharjah2017use"
+Warning--I didn't find a database entry for "erill2007aeons"
+Warning--I didn't find a database entry for "kreuzer2013dna"
+Warning--I didn't find a database entry for "irazoki2016sos"
+Warning--I didn't find a database entry for "robinson2018experimental"
+Warning--I didn't find a database entry for "krapivsky2010kinetic"
+Warning--I didn't find a database entry for "krapivsky1996transitional"
+Warning--I didn't find a database entry for "bansept2019enchained"
+Warning--I didn't find a database entry for "baharoglu2011vibrio"
+Warning--I didn't find a database entry for "guerin2009sos"
+Warning--I didn't find a database entry for "beaber2004sos"
+Warning--I didn't find a database entry for "tropini2017gut"
+Warning--I didn't find a database entry for "milligan2011study"
+Warning--I didn't find a database entry for "netuschil2014confusion"
+Warning--I didn't find a database entry for "gillespie1977exact"
+Warning--I didn't find a database entry for "gillespie2001approximate"
+Warning--I didn't find a database entry for "Chow2011"
+Warning--I didn't find a database entry for "Hajishengallis2016"
+(There were 6 error messages)

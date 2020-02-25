@@ -27,6 +27,45 @@
  \pagebreak [3]\vspace {3ex} \nopagebreak \noindent {APPENDICES}\nopagebreak 
 \contentsline {chapter}{\number@appendix {1}{A} \uppercase {Sublethal antibiotics collapse gut bacterial populations by enhancing aggregation and expulsion}}{57}% 
 \contentsline {chapter}{REFERENCES CITED}{86}% 
-\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Motaxis paper here}}{90}% 
-\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Conclusion}}{91}% 
-\contentsline {chapter}{REFERENCES CITED}{92}% 
+\contentsline {chapter}{\number@appendix {2}{B} \uppercase {Swimming motility of a gut bacterial symbiont promotes resistance to intestinal expulsion and enhances inflammation}}{90}% 
+\contentsline {section}{ \numberline {B.1} Abstract}{90}% 
+\contentsline {section}{ \numberline {B.2} Introduction}{91}% 
+\contentsline {section}{ \numberline {B.3} Results}{95}% 
+\contentsline {subsection}{ \numberline {B.3.1} Loss of swimming motility or chemotaxis attenuates intestinal colonization and interbacterial competition}{95}% 
+\contentsline {subsection}{ \numberline {B.3.2} Motility and chemotaxis mutants have altered intestinal spatial organization}{98}% 
+\contentsline {subsection}{ \numberline {B.3.3} Swimming motility and chemotaxis promote persistence by enabling bacteria to counter intestinal flow and resist expulsion}{100}% 
+\contentsline {subsection}{ \numberline {B.3.4} Sustained swimming motility is required for maintaining intestinal spatial organization and persistence}{103}% 
+\contentsline {subsection}{ \numberline {B.3.5} Acquisition of swimming motility or chemotaxis leads to rapid recovery of intestinal spatial organization and abundance}{106}% 
+\contentsline {subsection}{ \numberline {B.3.6} Motile bacterial cells within the intestine induce local and systemic tnfa expression}{109}% 
+\contentsline {subsection}{ \numberline {B.3.7} Host tissues rapidly respond to sudden increases in bacterial swimming motility within the intestine}{112}% 
+\contentsline {section}{ \numberline {B.4} Discussion}{114}% 
+\contentsline {section}{ \numberline {B.5} Methods}{118}% 
+\contentsline {subsection}{ \numberline {B.5.1} Ethics statement}{118}% 
+\contentsline {subsection}{ \numberline {B.5.2} Zebrafish lines}{118}% 
+\contentsline {subsection}{ \numberline {B.5.3} Bacterial strains and culture}{119}% 
+\contentsline {subsubsection}{ General}{119}% 
+\contentsline {subsubsection}{ In vitro growth measurements}{119}% 
+\contentsline {subsubsection}{ In vitro motility assays}{120}% 
+\contentsline {subsubsection}{ Scanning electron microscopy}{121}% 
+\contentsline {subsubsection}{ Disk diffusion assays}{122}% 
+\contentsline {subsection}{ \numberline {B.5.4} Molecular techniques and genetic manipulations}{122}% 
+\contentsline {subsubsection}{ General}{122}% 
+\contentsline {subsubsection}{ Construction of gene deletions}{123}% 
+\contentsline {subsubsection}{ Design and construction of genetic switches}{124}% 
+\contentsline {subsubsection}{ Tn7-mediated chromosomal insertions}{126}% 
+\contentsline {subsection}{ \numberline {B.5.5} Gnotobiology}{127}% 
+\contentsline {subsubsection}{ Germ-free derivation}{127}% 
+\contentsline {subsubsection}{ Bacterial associations}{128}% 
+\contentsline {subsection}{ \numberline {B.5.6} Cultivation-based measurement of abundances}{129}% 
+\contentsline {subsection}{ \numberline {B.5.7} Live imaging}{130}% 
+\contentsline {subsubsection}{ Light sheet fluorescence microscopy}{130}% 
+\contentsline {subsubsection}{ Identification of fluorescent bacteria}{131}% 
+\contentsline {subsubsection}{ Measurement of planktonic fractions}{131}% 
+\contentsline {subsubsection}{ Measurement of in vivo growth rates}{132}% 
+\contentsline {subsubsection}{ Quantification of tnfa:GFP fluorescence}{133}% 
+\contentsline {subsubsection}{ Measuring tnfa:GFP/mpeg1:mCherry fluorescence}{134}% 
+\contentsline {subsection}{ \numberline {B.5.8} Data and statistical analysis}{134}% 
+\contentsline {section}{ \numberline {B.6} Acknowledgements}{134}% 
+\contentsline {section}{ \numberline {B.7} Supporting Information}{135}% 
+\contentsline {chapter}{REFERENCES CITED}{145}% 
+\contentsline {chapter}{\number@appendix {3}{C} \uppercase {Conclusion}}{146}% 
