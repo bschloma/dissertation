@@ -66,9 +66,15 @@ To investigate this putative relationship, we analyzed seven bacterial strains r
 \end{tabular}\caption{\textbf{Bacterial strains and imaging-derived estimates of mono-association abundances \textit{in vivo}}.  Abundances were estimated from 3D image stacks using the computational pipeline described in Methods and Supplementary Text}
 \end{table}
 
-
+\begin{figure}%[h]
+	\centerline{
+		\includegraphics[width =6 in]{cohesion/Fig1-eps-converted-to.pdf}}
+	\caption{\textbf{Diversity of bacterial population structures within the zebrafish intestine}.}{(A) Schematic of a 5-day old larval zebrafish. (B) Schematic of a larval zebrafish intestine with the three general anatomical regions and their approximate relative sizes highlighted. (C) Representative images from across the range of observed population structures. Each image is a maximum intensity projection of a full 3D image stack, except for the top right inset, which is a single optical plane. Dashed amber lines trace the approximate boundaries of the intestine in each image. Examples of single cells (open arrowheads), small aggregates (closed arrowheads), and large aggregates (tailed arrowheads) are noted within insets under ``sub-region''. See also Supplementary Movies 1-4.  Top row: Populations of \textit{V. cholerae} ZWU0020 localize to the anterior bulb and are dominated by highly motile planktonic cells (Supplementary Movie 1). Inset shows \textit{V. cholerae} ZWU0020 cells in a different fish that was colonized with 1:100 mixture of green and red variants. The dilute channel (green) is shown. Middle row: Populations of \textit{A. caviae} ZOR0002 typically contain a range of bacterial aggregate sizes, as indicated by arrows. Inset shows a zoomed-in view of the same intestine. Bottom row: Populations of \textit{E. cloacae} ZOR0014 typically consist of small numbers of large aggregates. Inset shows a zoomed-in view of the same intestine.}
+\end{figure}
 
  \section{Results}
+
+
 
 
 Imaging multiple fish per strain revealed a broad spectrum of growth modes and bacterial distributions, ranging from the highly planktonic populations of \textit{Vibrio cholerae} ZWU0020 located within the anterior ÒbulbÓ (Fig. 1C, top; Supplemental Movie 1) to the almost entirely aggregated populations of \textit{Enterobacter cloacae} ZOR0014 located within the midgut (Fig. 1C, bottom). Most populations displayed intermediate mixtures of cellular growth modes and spatial distributions, similar to that of \textit{Aeromonas caviae} ZOR0002 (Fig. 1C, middle; Supplemental Fig. 1, Supplemental Movies 2-4). As with observations of \textit{Aeromonas} strains in earlier work \cite{Wiles2016}, bacterial aggregates were dense, compact, and cohesive. The predominant difference in spatial position between species was their location along the longitudinal axis of the intestine. We observed no strains, for example, that localized along the radial axis, lining the gut epithelium.	
@@ -94,9 +100,24 @@ Because $C_c$ is proportional to the total number of cells and inversely proport
 
 The slope, $-6.6 \pm 1.1$, is close to the negative of the slope of the $C_c$ vs $x_c$ relationship $(4.9 \pm 1.1)$, as would be expected if $C_c \sim 1/n_c$ with the overall population being species-independent. Together, the $C_c$ vs $x_c$  and $n_c$ vs $x_c$ relationships confirm the lack of a global correlation between abundance and location and imply instead that local interactions relate the size and positioning of aggregates. 	
 
+\begin{figure}%[h]
+	\centerline{
+		\includegraphics[width =3 in]{cohesion/Fig2-eps-converted-to.pdf}}
+	\caption{\textbf{Metrics of cohesion correlate with spatial distribution  across bacterial strains}.} {(Continued in footnote.)}
+	\label{fig:cohesion_fig2}
+\end{figure}
+
+{\let\thefootnote\relax\footnote{FIGURE \ref{fig:cohesion_fig2} (cont'd) (A) the fraction of the population of each strain existing as single planktonic cells, (B) the average number of cells per cluster, and (C) the total number of clusters plotted against the population center, the center of mass position of each strain normalized by the length of the intestine. For the plots shown in B and C, individual cells are considered clusters of size 1. Circles show median values for each strain, bars show 25\% and 75\% quartiles. Trendlines were generated from the unweighted linear regression of log$_{10}$-transformed medians.}
 
 We next asked if the relationship between aggregation and intestinal distribution we found between strains could be detected within individual strain populations, which would further support its biophysical generality. For this, we considered only clusters of two or more cells because individual cells dominate each dataset. For each strain, excluding \textit{V. cholerae} ZWU0020 because it shows almost no aggregation (Fig. 2A), we combined measurements of cluster size and intestinal position from all specimens. We restricted our analysis to the anterior half of the intestine because the distal half rarely contained substantial populations (likely due to frequent intestinal expulsion), limiting our statistical power in that region. Regressing log$_{10}$-transformed sizes of aggregates against their position (Fig. 3, small circles and dashed trendlines), we found a positive correlation between aggregate size and aggregate position for each of the six strains (Table 2). Finding this relationship within strains, as well as across strains, suggests a generic mechanism that spatially segregates bacterial cells based on their cohesive properties, resulting in the localization of small aggregates to the anterior of the intestine and larger aggregates to the posterior.
 
+
+\begin{figure}%[h]
+	\centerline{
+		\includegraphics[width =3 in]{cohesion/Fig3-eps-converted-to.pdf}}
+	\caption{\textbf{Signatures of a cohesion-distribution relationship can be detected within populations at the strain level}.} { For each strain shown, the size of every cluster with size 2 cells and greater across all samples is plotted against its normalized position along the intestine (small circles). Trendlines depict linear regressions of log$_{10}$-transformed cluster sizes against position (black dashed lines). To better highlight trends, data were binned by position and the mean $\pm$ standard deviation of cluster sizes were overlaid on each plot as large circles and bars. }
+\end{figure}
+	
 %\begin{table}%[h!]
 %\centering
 %\begin{tabular}{l c c }
@@ -139,23 +160,9 @@ BS, TW, KG, and RP designed the research.  TW and EW performed gnotobiotic proce
 Research was supported through the M.J. Murdock Charitable Trust and an award from the Kavli Microbiome Ideas Challenge, a project led by the American Society for Microbiology in partnership with the American Chemical Society and the American Physical Society and supported by The Kavli Foundation. Work was also supported by the National Science Foundation under Award 1427957. Authors received funding from the National Institutes of Health (NIH, http://www.nih.gov/), P50GM09891 to KG and RP, F32AI112094 to TJW, and T32GM007759 to BHS. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
 
 %\newpage
-\begin{figure}%[h]
-\centerline{
-	\includegraphics[width =6 in]{cohesion/Fig1-eps-converted-to.pdf}}
-	\caption{\textbf{Diversity of bacterial population structures within the zebrafish intestine}.}{(A) Schematic of a 5-day old larval zebrafish. (B) Schematic of a larval zebrafish intestine with the three general anatomical regions and their approximate relative sizes highlighted. (C) Representative images from across the range of observed population structures. Each image is a maximum intensity projection of a full 3D image stack, except for the top right inset, which is a single optical plane. Dashed amber lines trace the approximate boundaries of the intestine in each image. Examples of single cells (open arrowheads), small aggregates (closed arrowheads), and large aggregates (tailed arrowheads) are noted within insets under ``sub-region''. See also Supplementary Movies 1-4.  Top row: Populations of \textit{V. cholerae} ZWU0020 localize to the anterior bulb and are dominated by highly motile planktonic cells (Supplementary Movie 1). Inset shows \textit{V. cholerae} ZWU0020 cells in a different fish that was colonized with 1:100 mixture of green and red variants. The dilute channel (green) is shown. Middle row: Populations of \textit{A. caviae} ZOR0002 typically contain a range of bacterial aggregate sizes, as indicated by arrows. Inset shows a zoomed-in view of the same intestine. Bottom row: Populations of \textit{E. cloacae} ZOR0014 typically consist of small numbers of large aggregates. Inset shows a zoomed-in view of the same intestine.}
-\end{figure}
 
-\begin{figure}%[h]
-\centerline{
-	\includegraphics[width =3 in]{cohesion/Fig2-eps-converted-to.pdf}}
-	\caption{\textbf{Metrics of cohesion correlate with spatial distribution  across bacterial strains}.} {(A) the fraction of the population of each strain existing as single planktonic cells, (B) the average number of cells per cluster, and (C) the total number of clusters plotted against the population center, the center of mass position of each strain normalized by the length of the intestine. For the plots shown in B and C, individual cells are considered clusters of size 1. Circles show median values for each strain, bars show 25\% and 75\% quartiles. Trendlines were generated from the unweighted linear regression of log$_{10}$-transformed medians.}
-\end{figure}
 
-\begin{figure}%[h]
-\centerline{
-	\includegraphics[width =3 in]{cohesion/Fig3-eps-converted-to.pdf}}
-	\caption{\textbf{Signatures of a cohesion-distribution relationship can be detected within populations at the strain level}.} { For each strain shown, the size of every cluster with size 2 cells and greater across all samples is plotted against its normalized position along the intestine (small circles). Trendlines depict linear regressions of log$_{10}$-transformed cluster sizes against position (black dashed lines). To better highlight trends, data were binned by position and the mean $\pm$ standard deviation of cluster sizes were overlaid on each plot as large circles and bars. }
-\end{figure}
+
 
 
 

@@ -26,7 +26,6 @@ This chapter was published as \cite{schlomann2018stationary}, a single-author pu
 \section{Abstract}
 A central problem in population ecology is understanding the consequences of stochastic fluctuations.  Analytically tractable models with Gaussian driving noise have led to important, general insights, but they fail to capture rare, catastrophic events, which are increasingly observed at scales ranging from global fisheries to intestinal microbiota.  Due to mathematical challenges, growth processes with random catastrophes are less well characterized and it remains unclear how their consequences differ from those of Gaussian processes.  In the face of a changing climate and predicted increases in ecological catastrophes, as well as increased interest in harnessing microbes for therapeutics, these processes have never been more relevant.  To better understand them, I revisit here a differential equation model of logistic growth coupled to density-independent catastrophes that arrive as a Poisson process, and derive new analytic results that reveal its statistical structure.  First, I derive exact expressions for the model's stationary moments, revealing a single effective catastrophe parameter that largely controls low order statistics.  Then, I use weak convergence theorems to construct its Gaussian analog in a limit of frequent, small catastrophes, keeping the stationary population mean constant for normalization.  Numerically computing statistics along this limit shows how they transform as the dynamics shifts from catastrophes to diffusions, enabling quantitative comparisons.  For example, the mean time to extinction increases monotonically by orders of magnitude, demonstrating significantly higher extinction risk under catastrophes than under diffusions. Together, these results provide insight into a wide range of stochastic dynamical systems important for ecology and conservation.
 
-\newpage
 
 \section{Introduction}
 
@@ -43,6 +42,11 @@ To circumvent this issue, I propose a method that treats the models not as disti
 
 Taken together, these results highlight the power of analytically tractable models of stochastic population dynamics.  The expressions derived here aid the analysis of experimental and observational data, inform the design of computer simulations, and reveal deep connections between distinct stochastic processes relevant for a wide range of ecological systems.
 
+\begin{figure}
+	\centerline{
+		\includegraphics[width =6.5 in]{math/figure1}}
+	\caption{\textbf{Sample paths of LRC and LES models.}}  {\textbf{A:}  A sample path from the LRC model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\lambda = .07$, $f = 10^{-2}$, $dt = .01$.   \textbf{B:}   A sample path from the LES model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\sigma = .53$, $dt = .01$.      }
+\end{figure}
 
 \section{Background on the Logistic Random Catastrophe model}
 
@@ -53,6 +57,13 @@ dX_t = r X_t\left(1-\frac{X_t}{K}\right)dt  - (1-f)X_{t^-}dN_t.
 \noindent The first term on the right hand side, of order $dt$, encodes deterministic logistic growth with growth rate $r$ and carrying capacity $K$.  The second term encodes random catastrophes with the use of a differential Poisson process, $dN_t$, which is equal to one if a catastrophe happens at time $t$ and zero otherwise.  Poisson catastrophes arrive with a constant probability per unit time, $\lambda$, and have a size set by $f$, the fraction of the population remaining after catastrophe.  The notation $X  _{t^-}dN_t$ indicates the It\^{o} integration convention \cite{hansonBook}.  By including logistic growth, the LRC model captures realistic density-dependent regulation; by including catastrophes of constant fraction, it captures the realistic feature that larger populations can experience larger losses, assuming that all individuals are equally susceptible to the disturbance.  Despite its simplicity, much about the statistical structure of the LRC model remains mysterious, due to the combined complications of the discontinuous Poisson process and nonlinear logistic growth.
 
 \section{Results}
+
+\begin{figure}
+	\centerline{
+		\includegraphics[width =6.5 in]{math/figure2}}
+	\caption{\textbf{Analytic results reveal statistical structure of LRC model.}}  {\textbf{A:  }Analytic results for stationary cumulants agree with numerical simulations.  Time evolution of the first 4 cumulants, $C_n$, of the LRC model, computed numerically (solid lines).  Dashed lines indicate the asymptotic values predicted by the analytic results, with the cumulants computed from the moments given by equation (3).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:  }Range of validity of $\lambda\ln f$ as an effective catastrophe parameter.  Parameters were scaled according to $\lambda' = \beta\lambda$ and $\ln f' = \beta^{-1}\ln f$ by dimensionless scale factor $\beta$.  Dashed lines are analytic results for first 4 stationary cumulants as a function of $\beta$.  Parameters same as in A.}
+\end{figure}
+
 \subsection{Deriving exact expressions for LRC stationary moments}
 
 I present here exact results for the stationary moments of the LRC model in absence of extinction, derived with the method of moment equations.  The method of moment equations turns a stochastic differential equation into an deterministic differential equation for the moment in question by averaging.  For nonlinear SDEs this results in a hierarchy of moment equations, in which each moment is coupled to higher moments, that generally cannot be solved exactly.  However, in the absence of extinction, this hierarchy reduces in the steady state to an algebraic recursion relation, which in the case of the LRC model is a simple relation between $\expec[X^{n+1}]$ and $\expec[X^{n}]$ (Appendix A).  This recursion relation can be iterated to express each moment just as a function of the mean.  The mean in turn can be computed independently from the steady state condition on $\ln X$ (Appendix A), resulting in  
@@ -92,7 +103,15 @@ The opposite limit of frequent but small catastrophes can also readily be unders
 
 The effective parameter $\lambda\ln f$ has an intuitive interpretation:  It is the correction to the long-run growth rate due to catastrophes, and has been previously identified as an important quantity in a variety of related models \cite{bao2011competitive,hansonBook,lande1993risks}.  Alternatively, the ratio $r^{-1}\lambda\ln f$, can be interpreted as the ratio of the timescale of recovery after a catastrophe of size $f$, $-r^{-1}\ln f$, to the timescale of catastrophe arrive, $\lambda^{-1}$. As noted above, the existence of this effective parameter has important consequences for analyzing experimental data.  As was done in \cite{wilesPLOS2016}, fitting ensemble statistics with the effective catastrophe parameter reduces the number of parameters that needs to be estimated.  In fact, attempting to fit both the rate $(\lambda)$ and size $(f)$ independently results in highly unconstrained parameter estimates  \cite{wilesPLOS2016} and should be avoided.  The analytic results derived here put the use of the effective parameter, $\lambda\ln f$, on firmer ground and explicitly delineate the range of its validity.  
 
+ \begin{figure}
+	\centerline{
+		\includegraphics[width =6.5in]{math/figure3}}
+	\caption{\textbf{The diffusion limit and extinction times.}} {(Continued in footnote.)}
+	\label{fig:math_fig3}
+\end{figure}
 
+{\let\thefootnote\relax\footnote{FIGURE \ref{fig:math_fig3} (cont'd) \textbf{A:  }Smoothly transforming the stationary distribution of LRC model to that of LES model in the diffusion limit.  LRC model (no extinction) was simulated for $T_{max} = 300$ units of inverse growth rate for 5 values of the scale parameter $\alpha$, rescaling parameters according to equation (8).  Frames i-v depict the stationary distribution of $\log X$ (for visual clarity) for $\alpha = 1, 2.94, 8.66, 25.49, 75.00$ respectively, estimated from $10^6$ paths.  Frame vi depicts the stationary distribution of $\log X$ for the target LES model.  Parameters:  $r = .68$, $K = 6800$, $\lambda = .1$, $\sigma = .8$, $\ln f = -\sigma/\sqrt{\lambda}$, $dt = .01$.  \textbf{B: }  Mean time to extinction increases as the LRC model is morphed into the LES model (bottom), despite the stationary mean remaining constant throughout the transformation (top).  Parameters:  Same as in A but $\alpha$ ranges logarithmically from 1 to 500 and $\sigma = 1$.  \textbf{C:  } Mean times to extinction for the beginning (purple circles) and end (green squares) points of the diffusion limit as a function of carrying capacity.  Parameters:  $r = 1$, $\lambda = .1$, $f = .01$, $N_{trials} = 5000$, $x_0 = 10$, $x^* = 1$.  For LES endpoints, $\sigma^2 = \lambda \ln^2f$.  \textbf{D:  } The exponent of this power law, obtained by linear regression, as a function of effective noise strengths.  Parameters:  $r = 1$, $f = .01$, $N_{trials} = 5000$, $\lambda$ is varied from $.06$ to $.4$.  For each value of $\lambda$, $\tau$ vs $K$ is computed for 10 values of $K$ ranging from 100 to 10000.  The last 5 values are used to compute $\nu$.  For the LRC model, the $x$-axis corresponds to $\sigma^2 = \lambda\ln^2f$.  The exponent appears to asymptotically follow a power law in $\sigma^2$, consistent with \cite{lande1993risks}}}
+		
 \subsection{The diffusion limit shows that random catastrophes pose higher extinction risk than environmental stochasticity}
 
 I now consider the problem of quantitatively comparing extinction risks in the LRC model and its environmental stochasticity analog, referred to here as the Logistic Environmental Stochasticity (LES) model.  The LES model can be written as an SDE,
@@ -575,40 +594,20 @@ The stationary means of the LRC and LES models can also be equated by using the 
 %	
 %\end{thebibliography}
 
-\bibliographystyle{unsrt}
+%\bibliographystyle{unsrt}
 
 \newpage
-\begin{figure}
-\centerline{
-	\includegraphics[width =6.5 in]{math/figure1}}
-	\caption{\textbf{Sample paths of LRC and LES models.}}  {\textbf{A:}  A sample path from the LRC model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\lambda = .07$, $f = 10^{-2}$, $dt = .01$.   \textbf{B:}   A sample path from the LES model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\sigma = .53$, $dt = .01$.      }
-\end{figure}
-
-
-\newpage
-\begin{figure}
-\centerline{
-	\includegraphics[width =6.5 in]{math/figure2}}
-	\caption{\textbf{Analytic results reveal statistical structure of LRC model.}}  {\textbf{A:  }Analytic results for stationary cumulants agree with numerical simulations.  Time evolution of the first 4 cumulants, $C_n$, of the LRC model, computed numerically (solid lines).  Dashed lines indicate the asymptotic values predicted by the analytic results, with the cumulants computed from the moments given by equation (3).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:  }Range of validity of $\lambda\ln f$ as an effective catastrophe parameter.  Parameters were scaled according to $\lambda' = \beta\lambda$ and $\ln f' = \beta^{-1}\ln f$ by dimensionless scale factor $\beta$.  Dashed lines are analytic results for first 4 stationary cumulants as a function of $\beta$.  Parameters same as in A.}
-\end{figure}
-
-\newpage
- \begin{figure}
-\centerline{
-	\includegraphics[width =6.5in]{math/figure3}}
-		\caption{\textbf{The diffusion limit and extinctionÊtimes.}} {\textbf{A:  }Smoothly transforming the stationary distribution of LRC model to that of LES model in the diffusion limit.  LRC model (no extinction) was simulated for $T_{max} = 300$ units of inverse growth rate for 5 values of the scale parameter $\alpha$, rescaling parameters according to equation (8).  Frames i-v depict the stationary distribution of $\log X$ (for visual clarity) for $\alpha = 1, 2.94, 8.66, 25.49, 75.00$ respectively, estimated from $10^6$ paths.  Frame vi depicts the stationary distribution of $\log X$ for the target LES model.  Parameters:  $r = .68$, $K = 6800$, $\lambda = .1$, $\sigma = .8$, $\ln f = -\sigma/\sqrt{\lambda}$, $dt = .01$.  \textbf{B: }  Mean time to extinction increases as the LRC model is morphed into the LES model (bottom), despite the stationary mean remaining constant throughout the transformation (top).  Parameters:  Same as in A but $\alpha$ ranges logarithmically from 1 to 500 and $\sigma = 1$.  \textbf{C:  } Mean times to extinction for the beginning (purple circles) and end (green squares) points of the diffusion limit as a function of carrying capacity.  Parameters:  $r = 1$, $\lambda = .1$, $f = .01$, $N_{trials} = 5000$, $x_0 = 10$, $x^* = 1$.  For LES endpoints, $\sigma^2 = \lambda \ln^2f$.  \textbf{D:  } The exponent of this power law, obtained by linear regression, as a function of effective noise strengths.  Parameters:  $r = 1$, $f = .01$, $N_{trials} = 5000$, $\lambda$ is varied from $.06$ to $.4$.  For each value of $\lambda$, $\tau$ vs $K$ is computed for 10 values of $K$ ranging from 100 to 10000.  The last 5 values are used to compute $\nu$.  For the LRC model, the $x$-axis corresponds to $\sigma^2 = \lambda\ln^2f$.  The exponent appears to asymptotically follow a power law in $\sigma^2$, consistent with \cite{lande1993risks}}
-\end{figure}
-
-\newpage
-
-%\renewcommand\thefigure{S1}    
+\section{Supplementary Figures}
+%\renewcommand\thefigure{S1}  
+\renewcommand\thefigure{S\arabic{figure}}  
+\setcounter{figure}{0}    
 \begin{figure}[h]
 \centerline{
 	\includegraphics[width =3.25 in]{math/figureS1}}
 	\caption{\textbf{Mean time to extinction is largely independent of initial starting population}.}  {Mean time to extinction, $\tau$, plotted on a shifted log scale as a function of initial starting population, $x_0$.  Green squares denote the LES model, purple circles denote the LRC model.  The mean extinction time, defined as the first hitting time to $x^* = 1$, starts from 0 but rapidly increases to a value independent of $x_0$.  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .01$, $N_{trials} = 500$.}
 \end{figure}
 
-\newpage
+%\newpage
 %\renewcommand\thefigure{S2}    
 \begin{figure}[h]
 \centerline{
@@ -616,6 +615,6 @@ The stationary means of the LRC and LES models can also be equated by using the 
 	\caption{\textbf{The LRC model has higher extinction risk than the LES model for equivalent stationary means.}} {\textbf{A:} Illustration of the mapping.  Numerical results for the average population plotted over time in the LRC (purple) and LES (green) models, showing both the cases of no extinction (dark solid lines) and extinction (light dashed lines) via an absorbing state at $x^* = 1$.  LES model has the same growth rate and carrying capacity as the LRC model and $\sigma$ is determined by $\sigma^2 = -2\lambda\ln f$, such that the two models have equal stationary means (Appendix C).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $\sigma = 1.16$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:}  Mean time to extinction, $\tau$, in units of inverse growth rate, for LRC (purple circles) and LES (green squares) models as a function of noise strength, with $\sigma^2 = -2\lambda\ln f$.   Parameters:  $r = 1, dt = .01, N_{trials} = 5\cdot 10^3$.  For LRC model, $f = .01$ and $\lambda$ was varied from $.065$ to $.195$.  Inset:  Mean time to extinction as a function of carrying capacity.  Parameters:  $r = 1$,  $\lambda = .13$, $f = .01$, $\sigma = 1.09$, $dt = .01$, $N_{trials} = 5\cdot 10^3$.}
 \end{figure}
 
-
+\renewcommand\thefigure{\arabic{figure}}    
 
 
