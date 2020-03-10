@@ -398,7 +398,7 @@ This \@papertype\ has been accepted and approved
 \@advisor & Advisor\\
 \@committee\\ \\ 
 and & \\ \\
-\@graddean & Vice Provost and Dean of the Graduate School
+\@graddean & Interim Vice Provost and Dean of the Graduate School
 \end{tabular}\\*[\baselineskip]
 Original approval signatures are on file with the
 University of Oregon Graduate School.\\*[\baselineskip]
@@ -791,34 +791,38 @@ Draft of \@longdraftdate\\
 \def\@chapapp{CHAPTER}
 \renewcommand{\thechapter}{\arabic{chapter}}
 \def\@makechapterhead#1{{
-\centering
-\ifnum \c@secnumdepth>\m@ne
-\@chapapp{}
-\if@appendices
-\ifnum 1=\aux@appendices
-\ifnum 1=\c@chapter\else
-\typeout{warning:
-extra appendices; rerun LaTeX}
-\thechapter
-\fi
-\else
-\thechapter
-\fi
-\else
-\Roman{chapter}
-\fi
-\par
-\vskip 2ex
-\fi
-\ifsc\textsc{#1}\else\uppercase{#1}\fi\par\nopagebreak\vskip 4ex}}
+	\centering
+	\ifnum \c@secnumdepth>\m@ne
+		\@chapapp{}
+		%\@appendicesfalse % BHS
+		\if@appendices
+			\ifnum 1=\aux@appendices
+				\ifnum 1=\c@chapter\else
+					\typeout{warning:
+						extra appendices; rerun LaTeX}
+					\thechapter
+				\fi
+			\else
+				\thechapter
+			\fi
+		\else
+			\Roman{chapter}
+		\fi
+		\par
+		\vskip 2ex
+	\fi
+	\ifsc\textsc{#1}\else\uppercase{#1}\fi\par\nopagebreak\vskip 4ex}}
+
 \def\@makeschapterhead#1{{
 \@startchapter{\ifsc\textsc{#1}\else\uppercase{#1}\fi}\par
 \nopagebreak\vskip 4ex}}
+
 \def\chapter{
 \clearpage\global\@topnum\z@
 \@afterindenttrue\secdef\@chapter\@schapter}
 \def\@chapter[#1]#2{
 \stepcounter{chapter}
+%\@appendicesfalse % BHS
 \if@appendices
 \protected@edef\@currentlabel
 {\csname p@chapter\endcsname\Alph{chapter}}
@@ -827,6 +831,7 @@ extra appendices; rerun LaTeX}
 {\csname p@chapter\endcsname\Roman{chapter}}
 \fi
 \typeout{[#1]}
+%\@appendicesfalse % BHS
 \if@appendices
 \ifnum\c@chapter=1
 \ifnum\aux@appendices=1
@@ -844,6 +849,7 @@ extra appendices; rerun LaTeX}
 \fi
 \@emit{\string\global\string\aux@appendices=\number\c@chapter}
 \ifnum \c@secnumdepth >\m@ne
+%\@appendicesfalse % BHS
 \if@appendices
 \ifnum\aux@appendices=1
 \addcontentsline{toc}{chapter}
@@ -1059,9 +1065,9 @@ extra appendices; rerun LaTeX}
 \fi}
 \def\appendix{
 \par
-\setcounter{chapter}{0} % this part is messing with the chapter numbers. -BHS
+\setcounter{chapter}{0}
 \def\@chapapp{\uppercase{appendix}}
-\def\thechapter{\Alph{chapter}} 
+\def\thechapter{\Alph{chapter}}
 \@appendicestrue}
 
 \ifx\@savdim\undefined
