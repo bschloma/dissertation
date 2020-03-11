@@ -66,7 +66,7 @@ dX_t = r X_t\left(1-\frac{X_t}{K}\right)dt  - (1-f)X_{t^-}dN_t.
 
 \subsection{Deriving exact expressions for LRC stationary moments}
 
-I present here exact results for the stationary moments of the LRC model in absence of extinction, derived with the method of moment equations.  The method of moment equations turns a stochastic differential equation into an deterministic differential equation for the moment in question by averaging.  For nonlinear SDEs this results in a hierarchy of moment equations, in which each moment is coupled to higher moments, that generally cannot be solved exactly.  However, in the absence of extinction, this hierarchy reduces in the steady state to an algebraic recursion relation, which in the case of the LRC model is a simple relation between $\expec[X^{n+1}]$ and $\expec[X^{n}]$ (Appendix A).  This recursion relation can be iterated to express each moment just as a function of the mean.  The mean in turn can be computed independently from the steady state condition on $\ln X$ (Appendix A), resulting in  
+I present here exact results for the stationary moments of the LRC model in absence of extinction, derived with the method of moment equations.  The method of moment equations turns a stochastic differential equation into an deterministic differential equation for the moment in question by averaging.  For nonlinear SDEs this results in a hierarchy of moment equations, in which each moment is coupled to higher moments, that generally cannot be solved exactly.  However, in the absence of extinction, this hierarchy reduces in the steady state to an algebraic recursion relation, which in the case of the LRC model is a simple relation between $\expec[X^{n+1}]$ and $\expec[X^{n}]$ (section \ref{section:calculation_details}).  This recursion relation can be iterated to express each moment just as a function of the mean.  The mean in turn can be computed independently from the steady state condition on $\ln X$ (section \ref{section:calculation_details}), resulting in  
 
 \be
 \expec[ X]_{LRC} = K\left(1+\frac{\lambda}{r}\ln f\right).
@@ -120,7 +120,7 @@ dX_t = rX_t\left(1-\frac{X_t}{K}\right) + \sigma X_{t^-} dB_t,
 \ee
 \noindent with $B_t$ the standard Brownian motion process \cite{hansonBook,karlin1981second}, whose intervals are independent, Gaussian distributed variables with $\expec[B_t] = 0$ and $\Var[B_t] = t$,  and $\sigma$ setting the strength of the noise.  Historically, there has been no obvious way of quantitatively comparing extinction risk between the two models across parameter space, since the noise parameter $\sigma$ and the catastrophe parameters, a rate $\lambda$ and size $f$, describe distinct, model-specific processes \cite{lande1993risks, landeBook, shaffer1987minimum}.  
 
-To circumvent this issue, I propose an approach in which the LES model is viewed not as a distinct process, but as a special case of the LRC model.  This notion has been expressed qualitatively for decades \cite{shaffer1987minimum,lande1993risks}, but, to my knowledge, has never been made explicit.  This can be done using a functional generalization of the Central Limit Theorem (CLT) \cite{jacod2013limit}, which says that fluctuations of the Poisson process about its mean converge in distribution to Brownian motion in a particular limit of infinite jump rate and infinitesimal jump size.  In Appendix B, it is shown that the relevant limits are 
+To circumvent this issue, I propose an approach in which the LES model is viewed not as a distinct process, but as a special case of the LRC model.  This notion has been expressed qualitatively for decades \cite{shaffer1987minimum,lande1993risks}, but, to my knowledge, has never been made explicit.  This can be done using a functional generalization of the Central Limit Theorem (CLT) \cite{jacod2013limit}, which says that fluctuations of the Poisson process about its mean converge in distribution to Brownian motion in a particular limit of infinite jump rate and infinitesimal jump size.  In section \ref{section:calculation_details}, it is shown that the relevant limits are 
 \be
 \ln f(N_t - \lambda t) \xrightarrow{\lambda \to \infty, \text{ } f \to 1} \sqrt{\lambda} \ln fB_t,
 \ee
@@ -133,11 +133,11 @@ The complete transformation from the LRC to LES model will be parameterized by a
 \begin{equation}
 r' = r\left(1- \frac{\lambda'\ln f'}{r}\right),\text{\hspace{.2cm}} K' = K\left(1  -\frac{\lambda'\ln f'}{r}\right).
 \end{equation}
-\noindent It is shown analytically in Appendix B that in the limit $\alpha \to \infty$, the LRC model $LRC(r',K',\lambda',f')$ gets mapped to an LES model $LES(r_{ES},K_{ES},\sigma)$, with $\sigma = \lambda\ln^2f$, $r_{ES} = r(1+(2r)^{-1}\sigma^2)$, and $K_{ES} = K(1+(2r)^{-1}\sigma^2)$.  In this way, the stationary mean of the process without extinction remains constant throughout this transformation, fixed at $K$.  This is chosen as a convenient way to normalize the effects of noise.  By adding constant offsets, the transformation can be tuned to preserve other properties (Appendix B).  This transformation is shown visually in Figure 3A, which depicts numerical results for the stationary distribution of the LRC model (in log variables for visual reasons) being transformed with $\alpha$ increasing on the interval $(1,75)$ (Materials and Methods).  The distribution approaches that of the target LES model, shown in green in panel (vi) .  
+\noindent It is shown analytically in section \ref{section:calculation_details} that in the limit $\alpha \to \infty$, the LRC model $LRC(r',K',\lambda',f')$ gets mapped to an LES model $LES(r_{ES},K_{ES},\sigma)$, with $\sigma = \lambda\ln^2f$, $r_{ES} = r(1+(2r)^{-1}\sigma^2)$, and $K_{ES} = K(1+(2r)^{-1}\sigma^2)$.  In this way, the stationary mean of the process without extinction remains constant throughout this transformation, fixed at $K$.  This is chosen as a convenient way to normalize the effects of noise.  By adding constant offsets, the transformation can be tuned to preserve other properties (section \ref{section:calculation_details}).  This transformation is shown visually in Figure 3A, which depicts numerical results for the stationary distribution of the LRC model (in log variables for visual reasons) being transformed with $\alpha$ increasing on the interval $(1,75)$ (Materials and Methods).  The distribution approaches that of the target LES model, shown in green in panel (vi) .  
 
 With this transformation, the question of relative risks of extinction under the LRC model and the LES model was revisited.  The mean time to extinction, $\tau$, was computed via stochastic simulation of the LRC model for various values of $\alpha$ (Figure 3B, bottom), rescaling LRC model parameters according to equation (8) for each $\alpha$ (Materials and Methods).  The LRC model extinction time (purple circles)  increases with increasing $\alpha$ and asymptotes to the LES model extinction time (green square).  Computed numerically, the stationary population mean in the absence of extinction does indeed remain constant throughout the transformation (Figure 3B, top).  The conclusion is again that there exists a significantly higher risk of extinction under random catastrophe dynamics than under environmental stochasticity dynamics.  
 
-This conclusion is robust across parameter space.  Plotting the beginning and end points of the curve in Figure 3B for various values of carrying capacity reproduces the asymptotic power law behavior described by Lande for simpler models \cite{lande1993risks} (Figure 3C), though the exponents obtained by linear fitting (Materials and Methods) are smaller for the LRC model across a wide range of effective noise strengths (Figure 3D).  Note that because the growth rate is rescaled in this procedure, as long as the original growth rate $r$ is positive, the long-run growth rate \cite{lande1993risks} is positive for all values of $\sigma$.  The conclusion is also insensitive to the initial starting population, $x_0$, as the mean time to extinction becomes independent of $x_0$ above a critical threshold (see \cite{landeBook,hanson1981} and Supplementary Figure 1).  In addition to this method based on the diffusion limit, an alternative approach, in which the stationary means of the LRC and LES models equated simply by mapping $\sigma^2 = -2\lambda\ln f$, leads to the same conclusion (Supplementary Figure 2, Appendix C).
+This conclusion is robust across parameter space.  Plotting the beginning and end points of the curve in Figure 3B for various values of carrying capacity reproduces the asymptotic power law behavior described by Lande for simpler models \cite{lande1993risks} (Figure 3C), though the exponents obtained by linear fitting (Materials and Methods) are smaller for the LRC model across a wide range of effective noise strengths (Figure 3D).  Note that because the growth rate is rescaled in this procedure, as long as the original growth rate $r$ is positive, the long-run growth rate \cite{lande1993risks} is positive for all values of $\sigma$.  The conclusion is also insensitive to the initial starting population, $x_0$, as the mean time to extinction becomes independent of $x_0$ above a critical threshold (see \cite{landeBook,hanson1981} and Supplementary Figure 1).  In addition to this method based on the diffusion limit, an alternative approach, in which the stationary means of the LRC and LES models equated simply by mapping $\sigma^2 = -2\lambda\ln f$, leads to the same conclusion (Supplementary Figure 2, section \ref{section:calculation_details}).
 
 
 \section{Discussion}
@@ -167,15 +167,17 @@ I thank Raghuveer Parthasarthy, Pankaj Mehta, and David Levin for helpful feedba
 
 
 
-%\appendix
+
 %\renewcommand{\theequation}{\thesection\arabic{equation}}
 %\setcounter{equation}{0}
 
-\section*{Appendix}
-\section{Detailed calculation of stationary moments}
+\section{Calculation details}
+\label{section:calculation_details}
+
+\section*{Detailed calculation of stationary moments}
 In this section an expression for the $n^{\text{th}}$ stationary moment for the LRC model is derived.  The approach is analogous for the LES model and since the results are already known \cite{engen2000}, a detailed derivation isn't given, though one remark is made on the application of this method to diffusion processes.
 
-\subsection{LRC model}
+\subsection*{\textit{LRC model}}
 
 Before beginning, the chain rule for jump processes \cite{hansonBook} is stated without proof, for reference.  Let $X_t$ by a general process given by
 \be
@@ -244,7 +246,7 @@ d\ln X_t = r\left(1 -\frac{X_t}{K}\right)dt +\ln f dN_t,
 \expec[X] = K\left(1 + \frac{\lambda}{r}\ln f\right).
 \ee
 
-\noindent Plugging this back into equation (A10) gives the final result
+\noindent Plugging this back into equation (18) gives the final result
 \be
 \expec[X^n] = K^{n}\left(1 + \frac{\lambda}{r}\ln f\right)\prod^{n-1}_{m=1}\left(1 - \frac{\lambda(1-f^m)}{mr}\right).
 \ee
@@ -254,7 +256,7 @@ d\ln X_t = r\left(1 -\frac{X_t}{K}\right)dt +\ln f dN_t,
  \Var[X]_{LRC} = K^2\frac{\lambda}{r}\left(-\ln f-(1-f)\right)\left(1+\frac{\lambda}{r}\ln f\right).
 \ee
 
-\subsection{LES model}
+\subsection*{\textit{LES model}}
 The derivation is analogous for the LES model, except that It\^{o}'s chain rule for diffusion processes is used.  Since the results are already known \cite{engen2000}, derived with traditional methods, a detailed computation will not be given.  However, one remark worth making concerns the expectation of $X_{t^-}dB_t$.  The intuitive argument outlined for the LRC model - that since the It\^{o} convention was employed the expectation of the product can be factored - gives the correct answer in this case, but is in fact not generally valid.  Essentially, for processes governed by equations of the form 
 \be
 dX_t = f(X_t,t)dt + g(X_{t^-},t^-)dB_t,
@@ -282,7 +284,7 @@ Following the same procedure as for the LRC model, factoring expectations of $X^
 
 
 
-\section{The diffusion limit and the Central Limit Theorem}
+\section*{The diffusion limit and the Central Limit Theorem}
 
 This section contains details of the construction of the LES model from the LRC model in the limit of infinitely frequent, infinitesimal catastrophes, referred to here as the diffusion limit.  The complete transformation involves all four LRC model parameters and is specified as follows.  Let $\alpha$ be a scale parameter, $LRC(r,K,\lambda,f)$ an LRC model, and $\sigma$ be the target noise-strength parameter of the limiting LES model.  Fix $\lambda\ln^2 f = \sigma^2$, and scale
 \begin{equation*}
@@ -298,7 +300,7 @@ K' = K\left(1  -\frac{\lambda'\ln f'}{r}\right) = K\left(1+ \frac{\sigma\sqrt{\l
 
 \noindent The claim is that in taking the limit $\alpha \to \infty$, the LRC model $LRC(r',K',\lambda',f')$ gets mapped to an LES model $LES(r_{ES},K_{ES},\sigma)$, with $\sigma^2 = \lambda\ln^2f$, $r_{ES} = r(1+(2r)^{-1}\sigma^2)$, and $K_{ES} = K(1+(2r)^{-1}\sigma^2)$, such that the stationary means of both models are equal. I first motivate the form of this transformation, which involves all four LRC model parameters, by studying the behavior of the stationary moments.  I then show how the precise form of these limits, namely $\lambda\to\infty$, $f\to 1$, such that $\lambda\ln^2f\to$ const., follows from functional generalizations of the Central Limit Theorem (CLT), in which a scaled, compensated Poisson process limits to Brownian motion.  Finally, I show analytically how the full transformation maps the LRC model into the LES model.  
 
-\subsection{Motivation}
+\subsection*{\textit{Motivation}}
 
 As discussed in the main text, taking the limits $\lambda\to\infty$, $f\to 1$, such that $\lambda\ln f\to$ const. is analogous to the law of large numbers, leading to a deterministic limit.  The correct limits instead are $\lambda\to\infty$, $f\to 1$, such that $\lambda\ln^2f\to$ const., which I show below is analogous to the CLT.  To motivate the final four parameter transformation, let us first consider the behavior of the LRC variance under these limits:
 
@@ -312,7 +314,7 @@ As discussed in the main text, taking the limits $\lambda\to\infty$, $f\to 1$, s
 The variance diverges, but a part of it remains finite.  The finite piece of the variance in this limit is exactly the variance of an LES model with $\sigma^2 = \lambda\ln^2 f$ and increased growth parameters $K_{ES} = K(1+(2r)^{-1}\sigma^2)$, and $r_{ES} = r(1+(2r)^{-1}\sigma^2)$.  Looking at the behavior of the mean in this limit leads to the same conclusion.  This suggests that this limit does take the LRC model into an LES model, but one that is accompanied by a noise-induced drift that diverges as $\sqrt{\lambda}$.  This is divergence should be expected, as it reflects the unidirectionality of jumps in the LRC model, which is absent in the LES, analogous to the divergence of the mean of a Poisson distribution when it limits to a Gaussian.  To obtain a non-trivial limiting process, this drift needs to be subtracted off, for example, by adding a term $-\lambda\ln f dt$ to the LRC model SDE.  This is equivalent to rescaling the growth rate and carrying capacity each by a factor of $(1-r^{-1}\lambda\ln f)$, leading to the full four parameter transformation.
 
   
-\subsection{Functional Central Limit Theorems}
+\subsection*{\textit{Functional Central Limit Theorems}}
 
 The form of the limits  $\lambda\to\infty$, $f\to 1$, such that $\lambda\ln^2f\to$ const., is a direct consequence of the CLT.  The classical CLT says that given a set of $n$ random variables, $\{\xi_j\}$, that are identically and independently distributed (i.i.d.) with mean $\mu$ and finite variance $\sigma^2$, the sum of the deviations of these variables from their mean, when rescaled by $\sqrt{n}$, tends in distribution to a Gaussian variable as $n\to\infty$:
 
@@ -358,7 +360,7 @@ Consider breaking a scaled, compensated Poisson process, $\epsilon \tilde{N}_t$ 
 In the LRC model, collapse size is forced to zero by taking $f\to 1$.  This still leaves room for how exactly $\lambda$ and $f$ should map on to $\sigma$.  One choice would be to take $\epsilon = -(1-f)$, such that $\sigma^2 = \lambda (1-f)^2$.  In this case, a quick calculation shows that the limiting process would be an LES model with unchanged growth parameters, $(r,K)$, and consequently a reduced stationary mean of $K(1-(2r)^{-1}\sigma^2)$, whereas the original LRC process, after removing the divergence of $\lambda\ln f$, has a stationary mean of $K$.  Alternatively, one could take  $\epsilon = \ln f$, such that $\sigma^2 = \lambda \ln^2f$.  This is the case examined above, which results in an LES model with an unchanged stationary mean, but altered growth parameters.  Since our present goal is to normalize the effect of noise to construct a fair comparison of extinction risk, the latter choice is more appropriate.
 
 
-\subsection{Convergence of LRC to LES}
+\subsection*{\textit{Convergence of LRC to LES}}
 
 I now discuss the convergence of the LRC model to the LES model via the convergence of the Poisson process to Brownian motion discussed above.  General conditions for the convergence of a pure jump Markov process to a diffusion are given in \cite{jacod2013limit}.  Rather than verify these general conditions here, I'll take a more intuitive approach that exploits the simplicity of the present models and uses the fact that both the LRC model and the LES model possess unique, strong solutions, as follows from special cases of a general result derived in \cite{bao2011competitive}.  This allows us to uniquely define a sequence of processes $X'_t(\alpha) \equiv F[\tilde{N}_t(\alpha); r(\alpha),K(\alpha),\lambda(\alpha),f(\alpha)]$, where $F$ is the solution to the LRC model depending on parameters $r$, $K$, $\lambda$, and $f$, and the limit of the sequence $X^*_t \equiv \lim_{\alpha\to\infty} X'_t(\alpha)$.   Existence and uniqueness of solutions to both models allows us in principle to take the limit and then invert the solution, recovering a diffusion SDE.  In practice, we can take the limit directly in the context of the LRC model SDE.  
 To begin, recall the LRC model,
@@ -398,12 +400,12 @@ dX'_t(\alpha) = r \left(1 + \frac{\sigma^2}{2r}\right)X'_t\left(1-\frac{X'_t}{K\
 \lim_{\alpha\to\infty}dX'_t(\alpha) = dX^*_t = r \left(1 + \frac{\sigma^2}{2r}\right)X^*_t\left(1-\frac{X^*_t}{K\left(1 + \frac{\sigma^2}{2r} \right)}\right)dt +\sigma X^*_{t^-}dB_t.
 \ee
 
-The limiting process is an LES model with increased growth parameters $r_{LES} = r(1+(2r)^{-1}\sigma^2)$ and $K_{LES} = K(1+(2r)^{-1}\sigma^2)$.  Comparing this model to the transformed LRC model of [31] using the analytic results for the stationary mean equations (A12) and (A17) reveals that the two models do indeed have the same stationary mean.
+The limiting process is an LES model with increased growth parameters $r_{LES} = r(1+(2r)^{-1}\sigma^2)$ and $K_{LES} = K(1+(2r)^{-1}\sigma^2)$.  Comparing this model to the transformed LRC model of equation (38) using the analytic results for the stationary mean equations (20) and (25) reveals that the two models do indeed have the same stationary mean.
 
 
-\section{An alternative mapping that equates stationary means}
+\section*{An alternative mapping that equates stationary means}
 
-The stationary means of the LRC and LES models can also be equated by using the same growth rate and carrying capacities and mapping $\sigma^2 = -2\lambda\ln f$, as is clear from equations (A12) and (A17).  This mapping provides an alternative method of quantitatively comparing the two models, though one that is perhaps less meaningful than the diffusion limit approach.  It can be understood intuitively by plotting the time evolution of the mean population of both models in the presence and absence of extinction (Supplementary Figure 2A).  In the absence of extinction, both models asymptote to the same value.  In the presence of extinction, the LRC model average decays to zero faster than the LES model average, indicating higher extinction risk.  Computed directly, the mean times to extinction for the LRC model are significantly shorter than for the LES model (Supplementary Figure 2B), supporting the conclusions of the diffusion limit-based method.
+The stationary means of the LRC and LES models can also be equated by using the same growth rate and carrying capacities and mapping $\sigma^2 = -2\lambda\ln f$, as is clear from equations (20) and (25).  This mapping provides an alternative method of quantitatively comparing the two models, though one that is perhaps less meaningful than the diffusion limit approach.  It can be understood intuitively by plotting the time evolution of the mean population of both models in the presence and absence of extinction (Supplementary Figure 2A).  In the absence of extinction, both models asymptote to the same value.  In the presence of extinction, the LRC model average decays to zero faster than the LES model average, indicating higher extinction risk.  Computed directly, the mean times to extinction for the LRC model are significantly shorter than for the LES model (Supplementary Figure 2B), supporting the conclusions of the diffusion limit-based method.
 
 
 %\bibliography{/Users/brandonschlomann/Documents/Gutz/PaperWriting/collapseTheory/collapse_theory_refs.bib}{}
@@ -612,7 +614,7 @@ The stationary means of the LRC and LES models can also be equated by using the 
 \begin{figure}[h]
 \centerline{
 	\includegraphics[width = 6.5 in]{math/figureS2}}
-	\caption{\textbf{The LRC model has higher extinction risk than the LES model for equivalent stationary means.}} {\textbf{A:} Illustration of the mapping.  Numerical results for the average population plotted over time in the LRC (purple) and LES (green) models, showing both the cases of no extinction (dark solid lines) and extinction (light dashed lines) via an absorbing state at $x^* = 1$.  LES model has the same growth rate and carrying capacity as the LRC model and $\sigma$ is determined by $\sigma^2 = -2\lambda\ln f$, such that the two models have equal stationary means (Appendix C).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $\sigma = 1.16$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:}  Mean time to extinction, $\tau$, in units of inverse growth rate, for LRC (purple circles) and LES (green squares) models as a function of noise strength, with $\sigma^2 = -2\lambda\ln f$.   Parameters:  $r = 1, dt = .01, N_{trials} = 5\cdot 10^3$.  For LRC model, $f = .01$ and $\lambda$ was varied from $.065$ to $.195$.  Inset:  Mean time to extinction as a function of carrying capacity.  Parameters:  $r = 1$,  $\lambda = .13$, $f = .01$, $\sigma = 1.09$, $dt = .01$, $N_{trials} = 5\cdot 10^3$.}
+	\caption{\textbf{The LRC model has higher extinction risk than the LES model for equivalent stationary means.}} {\textbf{A:} Illustration of the mapping.  Numerical results for the average population plotted over time in the LRC (purple) and LES (green) models, showing both the cases of no extinction (dark solid lines) and extinction (light dashed lines) via an absorbing state at $x^* = 1$.  LES model has the same growth rate and carrying capacity as the LRC model and $\sigma$ is determined by $\sigma^2 = -2\lambda\ln f$, such that the two models have equal stationary means (section \ref{section:calculation_details}).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $\sigma = 1.16$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:}  Mean time to extinction, $\tau$, in units of inverse growth rate, for LRC (purple circles) and LES (green squares) models as a function of noise strength, with $\sigma^2 = -2\lambda\ln f$.   Parameters:  $r = 1, dt = .01, N_{trials} = 5\cdot 10^3$.  For LRC model, $f = .01$ and $\lambda$ was varied from $.065$ to $.195$.  Inset:  Mean time to extinction as a function of carrying capacity.  Parameters:  $r = 1$,  $\lambda = .13$, $f = .01$, $\sigma = 1.09$, $dt = .01$, $N_{trials} = 5\cdot 10^3$.}
 \end{figure}
 
 \renewcommand\thefigure{\arabic{figure}}    
