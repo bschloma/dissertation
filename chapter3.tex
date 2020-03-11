@@ -46,7 +46,7 @@ Taken together, these results highlight the power of analytically tractable mode
 \begin{figure}
 	\centerline{
 		\includegraphics[width =6.5 in]{math/figure1}}
-	\caption{\textbf{Sample paths of LRC and LES models.}}  {\textbf{A:}  A sample path from the LRC model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\lambda = .07$, $f = 10^{-2}$, $dt = .01$.   \textbf{B:}   A sample path from the LES model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\sigma = .53$, $dt = .01$.      }
+	\caption{Sample paths of LRC and LES models.}  {A:  A sample path from the LRC model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\lambda = .07$, $f = 10^{-2}$, $dt = .01$.   B:   A sample path from the LES model.  Simulation parameters:  $r = 1$, $K = 10^4$, $\sigma = .53$, $dt = .01$.      }
 \end{figure}
 
 \section{Background on the Logistic Random Catastrophe model}
@@ -62,7 +62,7 @@ dX_t = r X_t\left(1-\frac{X_t}{K}\right)dt  - (1-f)X_{t^-}dN_t.
 \begin{figure}
 	\centerline{
 		\includegraphics[width =6.5 in]{math/figure2}}
-	\caption{\textbf{Analytic results reveal statistical structure of LRC model.}}  {\textbf{A:  }Analytic results for stationary cumulants agree with numerical simulations.  Time evolution of the first 4 cumulants, $C_n$, of the LRC model, computed numerically (solid lines).  Dashed lines indicate the asymptotic values predicted by the analytic results, with the cumulants computed from the moments given by equation (3).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:  }Range of validity of $\lambda\ln f$ as an effective catastrophe parameter.  Parameters were scaled according to $\lambda' = \beta\lambda$ and $\ln f' = \beta^{-1}\ln f$ by dimensionless scale factor $\beta$.  Dashed lines are analytic results for first 4 stationary cumulants as a function of $\beta$.  Parameters same as in A.}
+	\caption{Analytic results reveal statistical structure of LRC model.}  {\textbf{A:  }Analytic results for stationary cumulants agree with numerical simulations.  Time evolution of the first 4 cumulants, $C_n$, of the LRC model, computed numerically (solid lines).  Dashed lines indicate the asymptotic values predicted by the analytic results, with the cumulants computed from the moments given by equation (3).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:  }Range of validity of $\lambda\ln f$ as an effective catastrophe parameter.  Parameters were scaled according to $\lambda' = \beta\lambda$ and $\ln f' = \beta^{-1}\ln f$ by dimensionless scale factor $\beta$.  Dashed lines are analytic results for first 4 stationary cumulants as a function of $\beta$.  Parameters same as in A.}
 \end{figure}
 
 \subsection{Deriving exact expressions for LRC stationary moments}
@@ -107,7 +107,7 @@ The effective parameter $\lambda\ln f$ has an intuitive interpretation:  It is t
  \begin{figure}
 	\centerline{
 		\includegraphics[width =6.5in]{math/figure3}}
-	\caption{\textbf{The diffusion limit and extinction times.}} {(Continued in footnote.)}
+	\caption{The diffusion limit and extinction times.} {(Continued in footnote.)}
 	\label{fig:math_fig3}
 \end{figure}
 
@@ -608,7 +608,7 @@ The stationary means of the LRC and LES models can also be equated by using the 
 \begin{figure}[h]
 \centerline{
 	\includegraphics[width =3.25 in]{math/figureS1}}
-	\caption{\textbf{Mean time to extinction is largely independent of initial starting population}.}  {Mean time to extinction, $\tau$, plotted on a shifted log scale as a function of initial starting population, $x_0$.  Green squares denote the LES model, purple circles denote the LRC model.  The mean extinction time, defined as the first hitting time to $x^* = 1$, starts from 0 but rapidly increases to a value independent of $x_0$.  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .01$, $N_{trials} = 500$.}
+	\caption{Mean time to extinction is largely independent of initial starting population.}  {Mean time to extinction, $\tau$, plotted on a shifted log scale as a function of initial starting population, $x_0$.  Green squares denote the LES model, purple circles denote the LRC model.  The mean extinction time, defined as the first hitting time to $x^* = 1$, starts from 0 but rapidly increases to a value independent of $x_0$.  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .01$, $N_{trials} = 500$.}
 \end{figure}
 
 %\newpage
@@ -616,7 +616,7 @@ The stationary means of the LRC and LES models can also be equated by using the 
 \begin{figure}[h]
 \centerline{
 	\includegraphics[width = 6.5 in]{math/figureS2}}
-	\caption{\textbf{The LRC model has higher extinction risk than the LES model for equivalent stationary means.}} {\textbf{A:} Illustration of the mapping.  Numerical results for the average population plotted over time in the LRC (purple) and LES (green) models, showing both the cases of no extinction (dark solid lines) and extinction (light dashed lines) via an absorbing state at $x^* = 1$.  LES model has the same growth rate and carrying capacity as the LRC model and $\sigma$ is determined by $\sigma^2 = -2\lambda\ln f$, such that the two models have equal stationary means (section \ref{section:calculation_details}).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $\sigma = 1.16$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:}  Mean time to extinction, $\tau$, in units of inverse growth rate, for LRC (purple circles) and LES (green squares) models as a function of noise strength, with $\sigma^2 = -2\lambda\ln f$.   Parameters:  $r = 1, dt = .01, N_{trials} = 5\cdot 10^3$.  For LRC model, $f = .01$ and $\lambda$ was varied from $.065$ to $.195$.  Inset:  Mean time to extinction as a function of carrying capacity.  Parameters:  $r = 1$,  $\lambda = .13$, $f = .01$, $\sigma = 1.09$, $dt = .01$, $N_{trials} = 5\cdot 10^3$.}
+	\caption{The LRC model has higher extinction risk than the LES model for equivalent stationary means.} {\textbf{A:} Illustration of the mapping.  Numerical results for the average population plotted over time in the LRC (purple) and LES (green) models, showing both the cases of no extinction (dark solid lines) and extinction (light dashed lines) via an absorbing state at $x^* = 1$.  LES model has the same growth rate and carrying capacity as the LRC model and $\sigma$ is determined by $\sigma^2 = -2\lambda\ln f$, such that the two models have equal stationary means (section \ref{section:calculation_details}).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $\sigma = 1.16$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:}  Mean time to extinction, $\tau$, in units of inverse growth rate, for LRC (purple circles) and LES (green squares) models as a function of noise strength, with $\sigma^2 = -2\lambda\ln f$.   Parameters:  $r = 1, dt = .01, N_{trials} = 5\cdot 10^3$.  For LRC model, $f = .01$ and $\lambda$ was varied from $.065$ to $.195$.  Inset:  Mean time to extinction as a function of carrying capacity.  Parameters:  $r = 1$,  $\lambda = .13$, $f = .01$, $\sigma = 1.09$, $dt = .01$, $N_{trials} = 5\cdot 10^3$.}
 \end{figure}
 
 \renewcommand\thefigure{\arabic{chapter}.\arabic{figure}}  
