@@ -19,6 +19,7 @@
 \def\e{\text{e}}
 
 \chapter{Stationary moments, diffusion limits, and extinction times for logistic growth with random catastrophes}
+\label{ch:math}
 
 \section{Statement of author contributions}
 This chapter was published as \cite{schlomann2018stationary}, a single-author publication.
@@ -601,7 +602,8 @@ The stationary means of the LRC and LES models can also be equated by using the 
 \newpage
 \section{Supplementary Figures}
 %\renewcommand\thefigure{S1}  
-\renewcommand\thefigure{S\arabic{figure}}  
+%\renewcommand\thefigure{\arabic{\ref{ch:math}}.S\arabic{figure}}  
+\renewcommand\thefigure{\arabic{chapter}.S\arabic{figure}}   
 \setcounter{figure}{0}    
 \begin{figure}[h]
 \centerline{
@@ -617,6 +619,6 @@ The stationary means of the LRC and LES models can also be equated by using the 
 	\caption{\textbf{The LRC model has higher extinction risk than the LES model for equivalent stationary means.}} {\textbf{A:} Illustration of the mapping.  Numerical results for the average population plotted over time in the LRC (purple) and LES (green) models, showing both the cases of no extinction (dark solid lines) and extinction (light dashed lines) via an absorbing state at $x^* = 1$.  LES model has the same growth rate and carrying capacity as the LRC model and $\sigma$ is determined by $\sigma^2 = -2\lambda\ln f$, such that the two models have equal stationary means (section \ref{section:calculation_details}).  Parameters:  $r = 1$, $K = 10^4$, $\lambda = .1$, $f = .0012$, $\sigma = 1.16$, $dt = .01$, $N_{trials} = 5\cdot 10^5$.  \textbf{B:}  Mean time to extinction, $\tau$, in units of inverse growth rate, for LRC (purple circles) and LES (green squares) models as a function of noise strength, with $\sigma^2 = -2\lambda\ln f$.   Parameters:  $r = 1, dt = .01, N_{trials} = 5\cdot 10^3$.  For LRC model, $f = .01$ and $\lambda$ was varied from $.065$ to $.195$.  Inset:  Mean time to extinction as a function of carrying capacity.  Parameters:  $r = 1$,  $\lambda = .13$, $f = .01$, $\sigma = 1.09$, $dt = .01$, $N_{trials} = 5\cdot 10^3$.}
 \end{figure}
 
-\renewcommand\thefigure{\arabic{figure}}    
+\renewcommand\thefigure{\arabic{chapter}.\arabic{figure}}  
 
 

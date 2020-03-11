@@ -19,6 +19,7 @@
 \def\ea{\end{align}}
 
 \chapter{Sublethal antibiotics collapse gut bacterial populations by enhancing aggregation and expulsion}
+\label{ch:abx}
 
 \section{Statement of author contributions}
 This chapter was published as \cite{schlomann_sublethal_2019}, a co-authored publication. Co-authors included Travis Wiles, a co-first author along with myself, Elena Wall, Karen Guillemin, and Raghuveer Parthasarathy. My contributions included: designing the study, performing the imaging, analyzing the data, developing the model, performing simulations, and writing the paper. 
@@ -361,7 +362,7 @@ To further constrain our estimates, we place upper bounds on these parameters wi
 %\textbf{Model cluster size distributions are independent of how expulsion rate scales with cluster size}. Simulations were run with the expulsion rate depending on cluster size according to $E_n = \lambda (n/K)^{\nu}$, with $K$ the carrying capacity, and the exponent $\nu$ was varied. This ansatz keeps the expulsion rate of clusters of size $K$ constant. The resulting cluster size distributions agree with one another within sampling uncertainties, which are smaller than the marker size. This result justifies our use of the simple constant form of the expulsion kernel, $E_n = \lambda$.
 %
 %\newpage
-\renewcommand\thefigure{S\arabic{figure}}    
+\renewcommand\thefigure{\arabic{chapter}.S\arabic{figure}}    
 %\renewcommand{\figurename}{Supplementary Figure }
 
 
@@ -513,7 +514,7 @@ To further constrain our estimates, we place upper bounds on these parameters wi
 
 {\let\thefootnote\relax\footnote{FIGURE \ref{fig:figS13} (cont'd) Simulations were run with the expulsion rate depending on cluster size according to $E_n = \lambda (n/K)^{\nu}$, with $K$ the carrying capacity, and the exponent $\nu$ was varied. This ansatz keeps the expulsion rate of clusters of size $K$ constant. The resulting cluster size distributions agree with one another within sampling uncertainties, which are smaller than the marker size. This result justifies our use of the simple constant form of the expulsion kernel, $E_n = \lambda$.}
 
-\renewcommand\thefigure{\arabic{figure}}    
+%\renewcommand\thefigure{\arabic{\ref{ch:abx}}.S\arabic{figure}}    
 \newpage
 
 \section{Supplemental Movie captions}
@@ -774,5 +775,5 @@ Light sheet fluorescence microsocopy movie of \textit{Vibrio} in a fish treated 
 %\newblock {\em The Journal of Chemical Physics} 115(4):1716--1733.
 %
 %\end{thebibliography}
-
+\renewcommand\thefigure{\arabic{chapter}.\arabic{figure}}    
 
