@@ -540,6 +540,45 @@
         </meshpatch>
       </meshrow>
     </meshgradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9279"
+       id="linearGradient1308"
+       gradientUnits="userSpaceOnUse"
+       x1="-171.58704"
+       y1="-70.762871"
+       x2="-184.29233"
+       y2="156.80817"
+       gradientTransform="matrix(-0.07148353,0,0,-0.16969029,-67.803171,267.62929)" />
+    <meshgradient
+       y="248.49475"
+       x="-64.913776"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient1567"
+       inkscape:collect="always">
+      <meshrow
+         id="meshrow1569">
+        <meshpatch
+           id="meshpatch1571">
+          <stop
+             path="c 6.62805,0  13.2562,0  19.8842,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop1573" />
+          <stop
+             path="c 0,11.9358  0,23.8715  0,35.8073"
+             style="stop-color:#e1469a;stop-opacity:1"
+             id="stop1575" />
+          <stop
+             path="c -6.62805,0  -13.2562,0  -19.8842,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop1577" />
+          <stop
+             path="c 0,-11.9358  0,-23.8715  0,-35.8073"
+             style="stop-color:#e1469a;stop-opacity:1"
+             id="stop1579" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -548,9 +587,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="253.92201"
-     inkscape:cy="261.50534"
+     inkscape:zoom="0.7"
+     inkscape:cx="255.23463"
+     inkscape:cy="-32.156792"
      inkscape:document-units="mm"
      inkscape:current-layer="g9914"
      showgrid="false"
@@ -572,7 +611,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -623,9 +662,9 @@
       <path
          inkscape:connector-curvature="0"
          id="path9954"
-         d="m 109.15811,234.37243 v 7.51695 l -10.723493,0.0334 v 22.16192 h 5.981303"
+         d="m 109.15811,234.37243 v 7.51695 c -0.30637,7.1263 0,14.86549 0,22.19532 h 12.19114"
          style="fill:none;stroke:#000000;stroke-width:0.70599997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:nodetypes="ccccc" />
+         sodipodi:nodetypes="cccc" />
       <path
          inkscape:connector-curvature="0"
          id="path4518"
@@ -1175,7 +1214,7 @@
         </g>
       </g>
       <g
-         transform="matrix(-0.16356534,0,0,-0.16356534,107.36528,266.74386)"
+         transform="matrix(-0.16356534,0,0,-0.16356534,-160.61984,295.09207)"
          id="g9467">
         <g
            id="g9409">
@@ -1619,7 +1658,7 @@
          xml:space="preserve"
          id="flowRoot9617"
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         transform="matrix(0.26458333,0,0,0.26458333,72.697316,190.0075)"><flowRegion
+         transform="matrix(0.26458333,0,0,0.26458333,80.105654,190.0075)"><flowRegion
            id="flowRegion9613"><rect
              id="rect9611"
              width="383.85797"
@@ -1628,7 +1667,7 @@
              y="380.05756" /></flowRegion><flowPara
            id="flowPara9615"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">human colon crypt</flowPara></flowRoot>      <flowRoot
-         transform="matrix(0.26458333,0,0,0.26458333,118.59251,79.090524)"
+         transform="matrix(0.26458333,0,0,0.26458333,114.35915,79.090524)"
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          id="flowRoot9625"
          xml:space="preserve"><flowRegion
@@ -1639,7 +1678,7 @@
              width="383.85797"
              id="rect9619" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-           id="flowPara9623">human gut</flowPara></flowRoot>      <rect
+           id="flowPara9623">human colon</flowPara></flowRoot>      <rect
          y="230.7704"
          x="21.05146"
          height="7.403656"
@@ -1738,18 +1777,19 @@
       <path
          inkscape:connector-curvature="0"
          id="path1183"
-         d="m 104.15987,247.71781 4.81085,0.0334"
+         d="m 121.0932,247.71781 4.81085,0.0334"
          style="fill:none;stroke:#000000;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.706;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 104.51042,247.7686 v 33.82887"
+         style="fill:none;stroke:#000000;stroke-width:0.70599997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 121.44375,247.7686 v 33.82887"
          id="path1181"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
       <path
          sodipodi:nodetypes="cc"
          style="fill:none;stroke:#000000;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 104.15987,281.2113 4.81085,0.0334"
+         d="m 121.0932,281.2113 4.81085,0.0334"
          id="path1189"
          inkscape:connector-curvature="0" />
       <path
@@ -1772,6 +1812,26 @@
          y="198.4994"
          rx="0.18898818"
          ry="2.0788684" />
+      <g
+         id="g1584"
+         transform="translate(194.35543,-1.5119048)">
+        <g
+           style="fill:url(#meshgradient1567);fill-opacity:1"
+           id="g1473">
+          <path
+             style="fill:#ff99d2;fill-opacity:1;stroke:#000000;stroke-width:0.15541492;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -45.029572,252.78806 c 0,0 -0.975346,-0.19935 -1.452008,0 -0.440461,0.18421 -0.887185,0.50543 -1.260953,1.08847 -0.263543,0.41111 -0.498144,0.97609 -0.649583,1.63271 -0.126095,0.54674 -0.184807,1.19098 -0.191053,1.81412 -0.0062,0.61651 0.08878,1.21649 0.152842,1.81413 0.09537,0.88973 0.245268,1.74275 0.343896,2.63047 0.182852,1.64579 0.305497,3.32599 0.45853,4.98884 0.08905,0.96759 0.235402,1.91511 0.267474,2.90259 0.06376,1.96319 0.122632,4.03864 -0.152842,5.8959 -0.212432,1.43222 -0.655599,2.64579 -1.108111,3.71895 -0.5625,1.334 -1.219267,2.51451 -1.948748,3.26542 -1.097758,1.13 -2.321035,1.55236 -3.515388,1.72341 -1.224755,0.17541 -2.456223,-0.27199 -3.668231,-0.72565 -0.994891,-0.37239 -2.111891,-0.27949 -2.942227,-1.63271 -1.26982,-2.06945 -2.263982,-5.50143 -2.59833,-9.0706 -0.243633,-2.60079 0.134685,-5.4023 0.53495,-7.89143 0.345246,-2.14698 1.1898,-3.68836 1.566641,-5.80519 0.239323,-1.34435 0.602911,-2.86958 0.420318,-4.26319 -0.112469,-0.8584 -0.505752,-1.3944 -0.840636,-1.81412 -0.486287,-0.60948 -1.06331,-0.61668 -1.604851,-0.90706 -0.483011,-0.259 -1.46595,-0.74459 -1.46595,-0.74459 -0.441405,-2.10227 -0.237722,-2.76664 0.528526,-2.80002 0.766248,-0.0334 2.095062,0.56422 3.90392,0.9859 0.66511,0.83527 1.950117,2.12796 2.344796,3.46577 0.684586,2.32049 0.131074,4.9303 -0.152843,7.25649 -0.346004,2.83488 -1.392344,4.95113 -1.834115,7.71001 -0.236113,1.47453 -0.454988,3.0507 -0.420319,4.62601 0.04266,1.93832 0.142905,4.27132 0.764215,5.53307 0.843306,1.71259 2.182634,0.98949 3.286124,1.26989 0.976486,0.24813 1.969863,0.68969 2.942227,0.36282 0.693954,-0.23327 1.409818,-0.68871 1.986958,-1.63271 0.506269,-0.82807 0.95286,-2.00424 1.184533,-3.35612 0.255098,-1.48857 0.115492,-3.20284 0.152843,-4.80742 0.04008,-1.72185 0.18171,-3.46398 0.07642,-5.17025 -0.138354,-2.24211 -0.762162,-4.20412 -0.917057,-6.44013 -0.113671,-1.64091 -0.193124,-3.39033 0,-4.98884 0.165629,-1.37093 0.444198,-2.87844 0.955268,-3.62824 1.371345,-2.01192 4.814553,-1.08847 4.814553,-1.08847 l 0.03821,4.08177 v 0"
+             id="path1193"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="caaaaaaaaaaaaaaaaaaaacscaaaaaaaaaaaaaaccc" />
+        </g>
+        <path
+           style="fill:url(#linearGradient1308);fill-opacity:1;stroke:#000000;stroke-width:0.15541492;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -59.740705,250.24829 c 0.66511,0.83527 1.535536,1.39602 1.872326,2.9933 0.456644,2.16571 0.131073,4.93031 -0.152843,7.25649 -0.346004,2.83488 -1.392344,4.95113 -1.834116,7.71001 -0.236112,1.47453 -0.454987,3.0507 -0.420318,4.62602 0.04266,1.93831 0.142905,4.27131 0.764215,5.53307 0.843306,1.71258 2.182634,0.98948 3.286124,1.26988 0.976486,0.24813 1.969863,0.68969 2.942227,0.36283 0.693954,-0.23328 1.409818,-0.68872 1.986958,-1.63271 0.506269,-0.82808 0.95286,-2.00425 1.184533,-3.35613 0.255097,-1.48857 0.115492,-3.20284 0.152843,-4.80742 0.04008,-1.72185 0.18171,-3.46398 0.07642,-5.17025 -0.138354,-2.24211 -0.762162,-4.20412 -0.917057,-6.44013 -0.113671,-1.64091 -0.243205,-3.40589 -0.0096,-4.97233 0.04404,-2.10853 0.496739,-3.26542 0.496739,-3.26542 -3.122727,-0.35489 -9.428499,-0.10721 -9.428499,-0.10721"
+           id="path1199"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccccccccc" />
+      </g>
     </g>
   </g>
 </svg>
